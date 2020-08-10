@@ -5,11 +5,11 @@
  - Pablo Vinícius Pereira de Sá
 
 
-### Lista das aulas
+## Lista das aulas
 
 Aulas Ministradas/Programadas
 
-#### Módulo 1 (Introdução)
+### Módulo 1 (Introdução)
 * 01: Introdução + Arquitetura
 * 02: História do Framework Angular e suas Versões
 * 03: Ambiente de desenvolvimento
