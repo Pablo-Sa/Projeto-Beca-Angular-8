@@ -9,21 +9,21 @@
 
 Aulas Ministradas/Programadas
 
-### Módulo 1 (Introdução)
+## Módulo 1 (Introdução)
 * 01: Introdução + Arquitetura
 * 02: História do Framework Angular e suas Versões
 * 03: Ambiente de desenvolvimento
 * 04: Primeira app (Hello World)
 * 05: Introdução ao Typescript para Angular
 
-#### Módulo 2 (Componentes e Templates)
+## Módulo 2 (Componentes e Templates)
 * 06: Hello, World! - Criando um Componente
 * 07: Estrutura de um Componente
 * 08: Módulos
 * 09: Templates
 * 10: Serviços
 
-#### Módulo 3 (Data binding e eventos)
+## Módulo 3 (Data binding e eventos)
 * 11: Property binding + Interpolation
 * 12: Class e Style binding
 * 13: Event binding
@@ -33,7 +33,7 @@ Aulas Ministradas/Programadas
 * 17: Ciclo de vida (life-cycle) do Componente
 * 18: Acesso à variáveis locais do Template com ViewChild
 
-#### Módulo 4 (Diretivas)
+## Módulo 4 (Diretivas)
 * 19: Introdução e tipos de diretivas no Angular 2
 * 20: ngIf
 * 21: ngSwitch
