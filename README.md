@@ -3,6 +3,8 @@
 
 ## Palestrantes
  - Pablo Vinícius Pereira de Sá
+ - Jose Ribeiro Sousa
+ - Gustavo Rodovalho Oliveira
 
 
 ## Lista das aulas
