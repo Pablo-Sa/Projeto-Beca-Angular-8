@@ -6,7 +6,9 @@
  - Jose Ribeiro Sousa
  - Gustavo Rodovalho Oliveira
 
-
+## POC (Prova de conceito)
+ - Será desenvolvida uma durante a 2º Semana do Curso, afim de aplicar todos os Conceitos deste curso.
+ 
 ## Lista das aulas
 
 Aulas Ministradas/Programadas
