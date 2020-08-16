@@ -21,9 +21,7 @@
 ## Fontes da Aplicação   
  Na Raiz deste repositório existe uma pasta chamada POC, nela contém duas pastas uma referente ao Back-End desta aplicação que foi desenvolvido em Java
  que não é o foco do nosso curso porém caso queira aprender mais sobre como criar uma API usando as boas práticas e Segurança com Spring Security e JWT, 
- validações, Hibernate e etc sugiro a mesma como estudo, fica a dica. A outra pasta é referente ao Front-End desenvolvido em Angular, porém disponibilizarei
- os fontes da mesma no decorrer da 2º Semana, nela iremos implementar Guardas de Rotas, Conceitos de Autenticação Importantes, LocalStorage, utilizaremos o
- framework Bootstrap para facilitar na estilização, aprenderemos alguns padrões de projeto como Observer, Factory etc.
+ validações, Hibernate e etc sugiro a mesma como estudo, na paste existe outro Readme bem explicativo das tecnologias envolvidas, fica a dica. A outra pasta é referente ao Front-End desenvolvido em Angular, porém disponibilizarei os fontes da mesma no decorrer da 2º Semana, nela iremos implementar Guardas de Rotas, Conceitos de Autenticação Importantes, LocalStorage, utilizaremos o framework Bootstrap para facilitar na estilização, aprenderemos alguns padrões de projeto como Observer, Factory etc.
    
  
 # Lista das aulas
