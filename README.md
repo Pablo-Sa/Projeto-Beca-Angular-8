@@ -11,7 +11,7 @@
 ## Link de Acesso
  Já realizado o Deploy da mesma em ambiente de Produção, clique abaixo para acessar. </br></br>
  OBS: O Back-End desta aplicação está hospedada em um Servidor Heroku, informo que o mesmo em algumas redes corporativas é bloqueado, qualquer divergência acesse pela sua
- rede particular.
+ rede particular com sua máquina que não está ingressada em um domínio que possa ter restrições de acesso.
  
  http://www.ondeployment.com.br/beca-angular
 ## Credenciais de Acesso
