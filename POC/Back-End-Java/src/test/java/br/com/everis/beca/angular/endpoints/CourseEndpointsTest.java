@@ -54,7 +54,7 @@ public class CourseEndpointsTest {
 	@BeforeEach
 	public void configProtectedHeaders() {
 		LoginForm form = new LoginForm();
-		form.setLogin("pablo");
+		form.setLogin("Pablo");
 		form.setPassword("Mudar@123");
 		HttpHeaders headers = restTemplet.postForEntity("/auth", form, String.class).getHeaders();
 		this.protectedHeader = new HttpEntity<>(headers);
@@ -70,7 +70,7 @@ public class CourseEndpointsTest {
 	@Test
 	public void PostLoginResponseStatusCode200() {
 		LoginForm form = new LoginForm();
-		form.setLogin("pablo");
+		form.setLogin("Pablo");
 		form.setPassword("Mudar@123");
 		ResponseEntity<TokenDto> response = this.restTemplet.postForEntity("/auth", form, TokenDto.class);
 		Assertions.assertThat(response.getStatusCodeValue()).isEqualTo(200);
