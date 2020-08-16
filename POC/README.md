@@ -7,5 +7,5 @@
  - Gustavo Rodovalho Oliveira
 
 ## POC (Prova de conceito)
- - Será desenvolvida uma aplicação durante a 2º Semana do Curso, afim de aplicar todos os Conceitos deste curso.
+ - Esta pasta está reservada para a prova de conceito, Front-End será disponibilizado no decorrer da 2º Semana.
  
