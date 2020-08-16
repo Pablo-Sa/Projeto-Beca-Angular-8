@@ -9,7 +9,10 @@
 # POC (Prova de conceito)
   - Será desenvolvida uma aplicação durante a 2º Semana do Curso, afim de aplicar todos os Conceitos deste curso.
 ## Link de Acesso
- Já realizado o Deploy da mesma em ambiente de Produção, clique abaixo para acessar. </br>
+ Já realizado o Deploy da mesma em ambiente de Produção, clique abaixo para acessar. </br></br>
+ OBS: O Back-End desta aplicação está hospedada em um Servidor Heroku, informo que o mesmo em algumas redes corporativas é bloqueado, qualquer divergência acesse pela sua
+ rede particular.
+ 
  http://www.ondeployment.com.br/beca-angular
 ## Credenciais de Acesso
    Usuário: admin </br>
