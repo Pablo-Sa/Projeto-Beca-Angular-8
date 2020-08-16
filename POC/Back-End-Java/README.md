@@ -83,6 +83,8 @@ A partir deste ponto se tudo ocorrer corretamente a aplicação estará executan
 - Lombook
 - JWT
 - BCrypt
+- Validação Bean
+- Tratamentos de Exceção nos Recursos Disponibilizados pela API.
 
 # Spring Security
 Para Segurança da API foi implementado o Spring Security como método de Autenticação `STATELESS`, utilizado o JWT.
