@@ -82,6 +82,7 @@ A partir deste ponto se tudo ocorrer corretamente a aplicação estará executan
 - Swagger
 - Lombook
 - JWT
+- BCrypt
 
 # Spring Security
 Para Segurança da API foi implementado o Spring Security como método de Autenticação `STATELESS`, utilizado o JWT.
