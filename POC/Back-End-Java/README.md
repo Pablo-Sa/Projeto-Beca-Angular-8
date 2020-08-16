@@ -86,3 +86,5 @@ A partir deste ponto se tudo ocorrer corretamente a aplicação estará executan
 # Spring Security
 Para Segurança da API foi implementado o Spring Security como método de Autenticação `STATELESS`, utilizado o JWT.
 O Tempo de Expiração do Token configurei para 30 Minutos para que seja possível o teste mais facilmente por se tratar de uma POC.
+As senhas ao Efetuar login, no Banco de Dados devem ser cadastradas utilizando o BCrypt (é um método de criptografia do tipo hash para senhas baseado no Blowfish).
+Logo no DB ficaria a Senha Criptografada e ao usuário fazer login no Recurso disponibilizado pela API, será digitado a senha sem Criptografia.
