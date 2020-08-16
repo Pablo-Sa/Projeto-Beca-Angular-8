@@ -6,8 +6,22 @@
  - Jose Ribeiro Sousa
  - Gustavo Rodovalho Oliveira
 
-## POC (Prova de conceito)
- - Será desenvolvida uma aplicação durante a 2º Semana do Curso, afim de aplicar todos os Conceitos deste curso.
+# POC (Prova de conceito)
+  - Será desenvolvida uma aplicação durante a 2º Semana do Curso, afim de aplicar todos os Conceitos deste curso.
+## Link de Acesso
+ Já realizado o Deploy da mesma em ambiente de Produção, clique abaixo para acessar. </br>
+ http://www.ondeployment.com.br/beca-angular
+## Credenciais de Acesso
+   Usuário: admin </br>
+   Senha: Mudar@123
+   
+## Fontes da Aplicação   
+ Na Raiz deste repositório existe uma pasta chamada POC, nela contém duas pastas uma referente ao Back-End desta aplicação que foi desenvolvido em Java
+ que não é o foco do nosso curso porém caso queira aprender mais sobre como criar uma API usando as boas práticas e Segurança com Spring Security e JWT, 
+ validações, Hibernate e etc sugiro a mesma como estudo, fica a dica. A outra pasta é referente ao Front-End desenvolvido em Angular, porém disponibilizarei
+ os fontes da mesma no decorrer da 2º Semana, nela iremos implementar Guardas de Rotas, Conceitos de Autenticação Importantes, LocalStorage, utilizaremos o
+ framework Bootstrap para facilitar na estilização, aprenderemos alguns padrões de projeto como Observer, Factory etc.
+   
  
 ## Lista das aulas
 
