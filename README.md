@@ -23,7 +23,7 @@
  framework Bootstrap para facilitar na estilização, aprenderemos alguns padrões de projeto como Observer, Factory etc.
    
  
-## Lista das aulas
+# Lista das aulas
 
 Aulas Ministradas/Programadas
 
