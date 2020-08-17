@@ -1,5 +1,6 @@
 # Projeto Everis Beca Angular 8 
 🎓 [PT-BR] Projeto Beca Angular 8 (v2+)
+Data: 17/08/2020 a 29/08/2020 Horário: 9h às 18h
 
 ## Palestrantes
  - Pablo Vinícius Pereira de Sá
