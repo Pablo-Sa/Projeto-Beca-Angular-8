@@ -105,3 +105,6 @@ Aulas Ministradas/Programadas
 * 59: Http: Dica: Variável de Ambiente
 * 60: Http GET + Pipe Async
 * 61: Http + RxJS: Unsubscribe Automático
+* 62: Http POST: Salvar Registros
+* 63: Http DELETE: Deletar Registros
+* 64: Http PUT: Atualizar Registros
