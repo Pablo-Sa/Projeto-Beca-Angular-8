@@ -1,0 +1,13 @@
+mat-form-field{
+  margin-right: 20px;
+  margin-left: 20px;
+}
+h3{
+  color:#000000;
+  font-size: 25px;
+}
+#voltar{
+  margin-left: 95%;
+    margin-top: -10%;
+    position: fixed;
+}

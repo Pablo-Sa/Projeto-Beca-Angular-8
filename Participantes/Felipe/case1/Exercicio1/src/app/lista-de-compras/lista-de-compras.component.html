@@ -1,0 +1,37 @@
+<div class="mat-card" style=" border: 0px solid;
+padding: 43px; width: 30%;">
+
+<h1>Lista de Compras:</h1>
+
+<form (ngSubmit)="onSubmit()" >
+
+<mat-form-field appearance="fill">
+<mat-label>Produto</mat-label>
+<input matInput placeholder="" [(ngModel)]="cart.product"  name="produtcs" required>
+
+
+</mat-form-field>
+
+<mat-form-field appearance="fill">
+<mat-label>Preço</mat-label>
+<input matInput type="number"  [(ngModel)]="cart.price" name="prices" placeholder="" required>
+<span matPrefix>R$&nbsp;</span>
+</mat-form-field>
+<br>
+<button mat-raised-button color="primary" >Adicionar</button>
+</form>
+<br>
+<button mat-raised-button color="accent" routerLink="/compras" style="position: fixed; margin-left: 10%;
+margin-top:-56px;" >Lista de Compras</button>
+</div>
+<br>
+<div style="position: relative;
+margin-left: 60%;
+margin-top: -21%;">
+  <button mat-button style="background-color: rgb(20, 212, 238);" routerLink="/adress">Procurar endereço</button>
+</div>
+<div style="position: relative;
+margin-left: 93%;
+margin-top: 28%;">
+  <button mat-button style="background-color: rgb(236, 178, 178);" routerLink="/" (click)="logout()">Logout</button>
+</div>
