@@ -13,12 +13,10 @@ export class LoginService {
     if(usuario.login === 'Pablo' && usuario.senha === '123'){
       console.log('Logado');
       this.router.navigate(["databinding"])
+      window.localStorage.setItem('userLogado',usuario.login);
     }
     else{
       alert('Credências Inválidas')
     }
-
-
   }
-
 }

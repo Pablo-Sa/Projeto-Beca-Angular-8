@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Usuario } from './usuario';
+import { LoginService } from '../login-example/shared/login.service';
 
 @Component({
   selector: 'exemplo-data-binding',
@@ -12,6 +13,7 @@ export class ExemploDataBindingComponent implements OnInit {
   public urlImage: string = 'http://lorempixel.com/g/400/200/' // [src] Property Binding
 
   public user: Usuario;
+  public usuariologado: string;
 
   constructor() { 
     this.user = new Usuario();
@@ -19,6 +21,7 @@ export class ExemploDataBindingComponent implements OnInit {
   }
 
   ngOnInit() {
+   this.usuariologado = window.localStorage.getItem('userLogado');
   }
 
   logar(){
