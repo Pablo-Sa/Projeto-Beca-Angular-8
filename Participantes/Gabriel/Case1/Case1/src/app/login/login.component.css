@@ -1,0 +1,35 @@
+.box {
+  position:relative;
+  top:60px;
+  float:left;
+  padding:60px 50px 40px 50px;
+  background:#fff;
+  border-radius:10px;
+  max-width:300px;
+  margin-left: 470px;
+}
+
+.login mat-card-header{
+  text-align:center;
+  width:100%;
+  display:block;
+}
+
+.login mat-card-header mat-card-title{
+  font-size:30px;margin:10;
+}
+
+.login .mat-card{
+  padding:40px 70px 50px;
+}
+
+.login .mat-stroked-button{
+  border:1px solid currentColor;
+  line-height:20px;
+  background:#FFF7FA;
+  margin-left: 100px;
+}
+
+.login mat-form-field {
+  margin-left: -10px;
+}

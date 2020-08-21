@@ -123,5 +123,8 @@
       }
     }
   },
-  "defaultProject": "Case1"
+  "defaultProject": "Case1",
+  "cli": {
+    "analytics": false
+  }
 }

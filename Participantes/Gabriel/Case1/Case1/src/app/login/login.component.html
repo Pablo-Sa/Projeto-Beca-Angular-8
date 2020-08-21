@@ -1,20 +1,23 @@
-<!DOCTYPE html>
+<div class="login" fxLayout="row" fxLayoutAlign="center">
 
-<body>
-    <div class="input-group mb-3">
-        <div class="input-group-prepend">
-        <span class="input-group-text" id="basic-addon1">@</span>
-        </div>
-        <input type="text" class="form-control" placeholder="Usuário" aria-label="Usuário" aria-describedby="basic-addon1">
-    </div>
-    
-    <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="Recipiente para nickname" aria-label="Recipiente para nickname" aria-describedby="basic-addon2">
-        <div class="input-group-append">
-        <span class="input-group-text" id="basic-addon2">@exemplo.com</span>
-        </div>
-    </div>
+  <mat-card class="box">
+    <mat-card-header>
+      <mat-card-title>Log in</mat-card-title>
+    </mat-card-header>
 
-    <p>login works!</p>
+    <form (ngSubmit)="onSubmit()">
+      <mat-card-content>
+        <mat-form-field>
+          <input matInput placeholder="Usuário" [(ngModel)] = "usuario.user" name = "id">
+        </mat-form-field>
+        <br/>
+        <mat-form-field>
+          <input matInput placeholder="Senha" type = "password" [(ngModel)] = "usuario.password" name = "pw">
+        </mat-form-field>
+      </mat-card-content>
+      <button mat-stroked-button color="primary" class="btn-block">Log in</button>
+    </form>
+  </mat-card>
+</div>
 
-</body>
+<img src="https://99prod.s3.amazonaws.com/uploads/8eb4c111-31e3-469a-9515-18857d14212a/20815_1028618403816425_4686159767776236879_n.jpg">
