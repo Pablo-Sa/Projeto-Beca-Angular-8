@@ -1,0 +1,15 @@
+<h4>Exemplo de Data-Binding - Interpolação</h4>
+
+Url do GitHub Sendo Renderizada através de Interpolação : {{ urlGitHub }}
+
+<p>Operações</p>
+
+<p>Resultado de 10+10 é: {{ 10 + 10 }}</p>
+<p>Resultado de 10+10 não é: {{ 10 + 10 + getValor() }}</p>
+<p>Projeto foi Concluído: {{ projetoConcluido && getProjetoConcluido() }}</p>
+
+<h4>Exemplo de Property Binding</h4>
+
+<img src="{{urlImagem}}">
+<img [src]="urlImagem">
+<img bind-src="urlImagem">
