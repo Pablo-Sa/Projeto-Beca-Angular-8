@@ -1,0 +1,21 @@
+<div class="container" style="margin-top: 30px;">
+    <h3>Exemplo de Event-Binding</h3>
+    <button class="btn btn-primary" (click)="meClique()">Me Clique</button>
+    <br/>
+    <br/>
+    <br/>
+    <input type="text" #campoInput
+    (keyup)="onKey($event)"
+    (keyup.enter)="salvarValor(campoInput.value)"
+    (blur)="salvarValor(campoInput.value)"
+     >
+
+     <p>Valor Atual: {{ valorSalvo }}</p>
+     <p>Valor Salvo: {{ valorSalvo }}</p>
+
+     <p (mouseover)="onMouseOuverAndOut()"
+        (mouseout)="onMouseOuverAndOut()" 
+        [class.highlight]="isMouse"
+    >Passe o Mouse sobre mim</p>
+</div>
+

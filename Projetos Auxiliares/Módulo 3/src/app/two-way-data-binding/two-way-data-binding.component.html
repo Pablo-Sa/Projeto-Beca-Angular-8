@@ -1,0 +1,21 @@
+<div class="container" style="margin-top: 30px;">
+    <h4>Two-Way Data Binding</h4>
+    <br/>
+    <br/>
+    <br/>
+    <input type="text" [value]="valor" #inputValue
+     (input)="setValue(inputValue.value)">
+
+
+    <p>Valor Digitado: {{ valor }}</p>
+
+    <p>Exemplo de NGModel</p>
+
+    <input type="text"
+    [ngModel]="valor"
+    (ngModelChange)="setValue($event)">
+   <br/>
+   <br/>
+    <input type="text"
+    [(ngModel)]="valor">
+</div>

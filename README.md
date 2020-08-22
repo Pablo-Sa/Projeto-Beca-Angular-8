@@ -58,53 +58,57 @@ Aulas Ministradas/Programadas
 * 20: ngIf
 * 21: ngSwitch
 * 22: ngFor
-* 23: ngClass
-* 24: operador elvis
-* 25: Criando uma diretiva de atributo
-* 26: HostListener e HostBinding
-* 27: Property Binding de Diretivas
+* 23: sobre o asterisco
+* 24: ngClass
+* 25: ngStyle
+* 26: operador elvis
+* 27: ng-content
+* 28: Criando uma diretiva de atributo
+* 29: HostListener e HostBinding
+* 30: Property Binding de Diretivas
+* 31: Criando uma diretiva de estrutura (ngElse)
 
 ## Módulo 5 (Serviços e Injeção de Dependência)
-* 28: Introdução a Serviços
-* 29: Criando um serviço (Service)
-* 30: Injeção de Dependência (DI) + como usar um serviço em um componente
-* 31: Escopo de instâncias de serviços e módulos
-* 32: Injetando um serviço em outro serviço
-* 33: Comunicação entre componentes usando serviços
+* 32: Introdução a Serviços
+* 33: Criando um serviço (Service)
+* 34: Injeção de Dependência (DI) + como usar um serviço em um componente
+* 35: Escopo de instâncias de serviços e módulos
+* 36: Injetando um serviço em outro serviço
+* 37: Comunicação entre componentes usando serviços
 
 ## Módulo 6 (Rotas)
-* 34: Rotas: Introdução
-* 35: Rotas: Configurando rotas simples
-* 36: Rotas: RouterLink: definindo rotas no template
-* 37: Rotas: Aplicando CSS em rotas ativas-k
-* 38: Rotas: Definindo e extraindo parâmetros de roteamento
-* 39: Rotas: Escutando mudanças nos parâmetros de roteamento
-* 40: Rotas Imperativas: Redirecionamento via código
-* 41: Rotas Filhas
-* 42: Rotas Filhas: desenvolvendo as telas
-* 43: Rotas: Tela de Login e como não mostrar o Menu (NavBar)
-* 44: Usando Guarda de Rotas: CanActivate
-* 45: Usando Guarda de Rotas: CanActivateChild
+* 38: Rotas: Introdução
+* 39: Rotas: Configurando rotas simples
+* 40: Rotas: RouterLink: definindo rotas no template
+* 41: Rotas: Aplicando CSS em rotas ativas-k
+* 42: Rotas: Definindo e extraindo parâmetros de roteamento
+* 43: Rotas: Escutando mudanças nos parâmetros de roteamento
+* 44: Rotas Imperativas: Redirecionamento via código
+* 45: Rotas Filhas
+* 46: Rotas Filhas: desenvolvendo as telas
+* 47: Rotas: Tela de Login e como não mostrar o Menu (NavBar)
+* 48: Usando Guarda de Rotas: CanActivate
+* 49: Usando Guarda de Rotas: CanActivateChild
 
 ## Módulo 7 (Formulários - Reativos)
-* 46: Formulários reativos (data driven) Introdução
-* 47: Formulários reativos: Configuração (Módulo e Componente)
-* 48: Formulários reativos: Criando um form com código Angular
-* 49: Formulários reativos: Sincronizando HTML com FormGroup
-* 50: Formulários reativos: Fazendo submit
-* 51: Resetando o form
-* 52: Formulários reativos: Aplicando validação nos campos
-* 53: Formulários reativos: Acesso ao FormControl no HTML e CSS de validação dos campos
-* 54: Formulários reativos: Verificar validação dos campos com botão submit
+* 50: Formulários reativos (data driven) Introdução
+* 51: Formulários reativos: Configuração (Módulo e Componente)
+* 52: Formulários reativos: Criando um form com código Angular
+* 53: Formulários reativos: Sincronizando HTML com FormGroup
+* 54: Formulários reativos: Fazendo submit
+* 55: Resetando o form
+* 56: Formulários reativos: Aplicando validação nos campos
+* 57: Formulários reativos: Acesso ao FormControl no HTML e CSS de validação dos campos
+* 58: Formulários reativos: Verificar validação dos campos com botão submit
 
 ## Módulo 8 (Integração com server)
-* 55: Http / HttpClient: Introdução
-* 56: Instalando Bootstrap 4
-* 57: Http: Simulando Servidor REST (json-server)
-* 58: Http GET: listar registros
-* 59: Http: Dica: Variável de Ambiente
-* 60: Http GET + Pipe Async
-* 61: Http + RxJS: Unsubscribe Automático
-* 62: Http POST: Salvar Registros
-* 63: Http DELETE: Deletar Registros
-* 64: Http PUT: Atualizar Registros
+* 59: Http / HttpClient: Introdução
+* 60: Instalando Bootstrap 4
+* 61: Http: Simulando Servidor REST (json-server)
+* 62: Http GET: listar registros
+* 63: Http: Dica: Variável de Ambiente
+* 64: Http GET + Pipe Async
+* 65: Http + RxJS: Unsubscribe Automático
+* 66: Http POST: Salvar Registros
+* 67: Http DELETE: Deletar Registros
+* 68: Http PUT: Atualizar Registros
