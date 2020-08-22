@@ -1,0 +1,21 @@
+span {
+  color: #9aae02;
+  font-weight: bold;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+mat-card {
+  width: 150px;
+  height: 40px;
+}
+a {
+  display: flex;
+  color: #9aae02;
+  text-decoration: none;
+  justify-content: center;
+ }

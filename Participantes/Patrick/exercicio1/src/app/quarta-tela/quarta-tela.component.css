@@ -1,0 +1,10 @@
+h1 {
+  margin: 10px;
+  color: #788327;
+  font-weight: bold;
+}
+
+mat-card {
+  width: 180px;
+  margin: 5px
+}

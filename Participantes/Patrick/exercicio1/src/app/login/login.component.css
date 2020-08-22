@@ -1,0 +1,82 @@
+::-webkit-input-placeholder { /* WebKit browsers */
+  color: #9aae02;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #9aae02;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #9aae02;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: #9aae02;
+}
+
+* {
+  outline: none;
+}
+
+.page-home {
+  display: flex;
+
+}
+
+.img {
+  display: flex;
+
+}
+
+.img img {
+  margin-top: 60px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  margin-top: 250px;
+  margin-left: 250px;
+  border-left-color: chartreuse;
+  width: 400px;
+  border-right: solid 1px #9aae02;
+  align-items: center;
+  height: 250px;
+  padding-top: 15px;
+
+}
+
+.login input {
+  background-color: #f0f0f5;
+  width: 240px;
+  border: 0;
+  padding: 16px 24px;
+  font-size: 16px;
+  outline: none; /*retira a borda quando clica em um campo*/
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  transition: background-color 400ms;
+}
+
+.login button {
+  width: 290px;
+  height: 56px;
+  background-color: #9aae02;
+  border-radius: 8px;
+  border: 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background-color 400ms;
+}
+
+.login input:hover {
+  background-color: gray;
+}
+
+.login button:hover{
+  background-color: #788327;
+}
