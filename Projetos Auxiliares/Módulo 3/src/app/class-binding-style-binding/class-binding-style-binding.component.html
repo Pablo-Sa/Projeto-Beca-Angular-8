@@ -1,0 +1,22 @@
+<h3> Exemplo de Class Binding e Style Binding</h3>
+
+<div class="container">
+    <select #classe (change)="0">  
+        <option value="alert-success">Suceso</option>
+        <option value="alert-info">Info</option>
+        <option value="alert-warning">Warning</option>
+        <option value="alert-danger">Danger</option>
+    </select>
+    <br/>
+    <br/>
+    <div class="alert " [class.alert-success]="classe.value == 'alert-success'" >...</div>
+    <div class="alert " [class.alert-info]="classe.value =='alert-info'">...</div>
+    <div class="alert " [class.alert-warning]="classe.value == 'alert-warning'" >...</div>
+    <div class="alert " [class.alert-danger]="classe.value == 'alert-danger'">...</div>
+
+    <!-- Style-Binding -->
+    <div class="alert"
+    [style.display]="classe.value == 'alert-danger' ? 'block': 'none' ">
+    Somente em Caso de Erros
+    </div>
+</div>

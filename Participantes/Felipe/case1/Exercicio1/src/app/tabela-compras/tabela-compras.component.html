@@ -1,0 +1,23 @@
+<h1>Lista de compras</h1> <button mat-fab color="primary" routerLink="/list">Voltar</button>
+<div class="mat-card" style=" border: 0px solid;
+padding: 43px;" >
+<h3>Lista:</h3>
+<table>
+  <tr>
+    <td>Produto </td>
+    <td>Preço</td>
+  </tr>
+   <tbody *ngFor="let c of newCart">
+   <tr>
+     <td>{{c.product}}</td>
+
+     <td>R${{c.price| number : '.2'}}</td>
+     </tr>
+
+   </tbody>
+ </table>
+ <mat-card><div style=" display: flex;   justify-content: space-between;">
+  Total: R${{total |number:'.2'}}
+  </div>
+  </mat-card>
+</div>
