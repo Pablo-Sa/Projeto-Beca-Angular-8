@@ -1,0 +1,35 @@
+
+<head>
+  <link rel="canonical" href="https://https://getbootstrap.com/docs/4.0/components/forms/#validation">
+</head>
+
+<nav>
+  <ul>
+    <li><a routerLink="/boasvindas">Home</a></li>
+    <li><a routerLink="/cadastro">Cadastro</a></li>
+    <li><a routerLink="/listandocadastros">Relatório</a></li>
+  </ul>
+ </nav>
+
+<h3> Cadastro de Projetos</h3>
+<form class="needs-validation" novalidate [formGroup]= "form">
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="projeto">Projeto:  </label>
+      <input #projeto type="text" class="form-control" formControlName="projeto" placeholder="Nome do Projeto" >
+    </div>
+
+  </div>
+
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="responsavel">Responsável:   </label>
+      <input #responsavel  type="text" class="form-control" formControlName="responsavel" placeholder="Nome do Responsável" >
+    </div>
+  </div>
+
+  <button type="submit" class="btn-secondary btn-lg" (click)="onSubmit()" >Salvar</button>
+' '
+  <button type="button" class="btn-secondary btn-lg" (click)="onCancel()">Cancelar</button>
+
+</form>

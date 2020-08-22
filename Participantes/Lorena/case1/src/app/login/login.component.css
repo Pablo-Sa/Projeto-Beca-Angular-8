@@ -1,0 +1,48 @@
+
+h2{
+  padding: 30px 0px 5px;
+  margin: 8px;
+  margin-left: 50px;
+  margin-top: 50px;
+  color: #9AAE02;
+}
+
+input[type=text], input[type=password] {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+button {
+  background-color: #9AAE02;
+  color: white;
+  padding: 14px 0px;
+  margin: 8px 0 0 75px;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+  align-items: center;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.container {
+  padding: 26px;
+  margin: 10px;
+  width: 60%;
+  color: #9AAE02;
+
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+  align-items: center;
+}
+
