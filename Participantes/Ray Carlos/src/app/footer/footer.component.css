@@ -1,0 +1,14 @@
+mat-toolbar{position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#9aae02;
+    color: white;
+    text-align: center;
+    height: 60px;
+    }
+    p{  
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        font-size: 30px;
+    }

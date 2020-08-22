@@ -1,0 +1,20 @@
+mat-card{
+    width: 50%;
+    margin-left: 15px;
+}
+
+.produto{
+    width: 400px;
+}
+
+.preco{
+    width: 400px;
+}
+
+.descricao{
+    width: 400px;
+}
+
+.button-ver-produtos{
+    margin-top: 10px;
+}

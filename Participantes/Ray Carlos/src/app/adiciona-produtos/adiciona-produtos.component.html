@@ -1,0 +1,26 @@
+<form (ngSubmit)="onSubmit()">
+    <mat-card>
+        <h1>Produtos</h1>
+        <br>
+        <mat-form-field class='produto' appearance="fill">
+            <mat-label>Produto</mat-label>
+            <input matInput  [(ngModel)] = 'produto.nomeProduto' required name='produto'>
+          </mat-form-field>
+          <br>
+          <mat-form-field class='descricao' appearance="fill">
+            <mat-label>Descrição</mat-label>
+            <textarea matInput [(ngModel)]='produto.descricaoProduto' required name='descricao'></textarea>
+          </mat-form-field>
+          <br>
+          <mat-form-field class='preco' appearance="fill">
+            <mat-label>Preço</mat-label>
+            <input matInput type="number" class="example-right-align" [(ngModel)]='produto.precoProduto' required name='preco'>
+            <span matPrefix>R$&nbsp;</span>
+            <span matSuffix></span>
+          </mat-form-field>
+          <br>
+          <button class = 'button-cadastra' mat-raised-button>Cadastrar produto</button>
+          <br>
+          <button class = 'button-ver-produtos' mat-raised-button routerLink='/produtoscadastrados'>Ver Produtos</button>
+    </mat-card>
+</form>

@@ -1,0 +1,29 @@
+<div class='div-principal'>
+  <mat-card>
+    <form (ngSubmit)="onSubmit()" >
+      <div class='div-card'>
+        <p>
+          <mat-toolbar class='toolbar-login'>
+            <span class='titulo-login'>Login</span>
+          </mat-toolbar>
+        </p>
+        <mat-form-field class='form-login' appearance="fill" >
+            <mat-label>Usuario</mat-label>
+            <input matInput [(ngModel)] = 'userLogin.user' name='user'>
+          </mat-form-field>
+          <br>
+          <mat-form-field class='form-password' appearance="fill">
+            <mat-label>Password</mat-label>
+            <input matInput [type]="hide ? 'password' : 'text'" [(ngModel)] = 'userLogin.password' name='password'>
+            <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+            <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+            </button>
+          </mat-form-field>
+          <br>
+          <button mat-raised-button class='button-login'>Fazer login</button>
+        </div>
+      </form>
+    </mat-card>
+
+</div>
+

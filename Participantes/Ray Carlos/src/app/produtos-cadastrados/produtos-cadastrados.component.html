@@ -1,0 +1,11 @@
+<mat-card>
+    <h1>Produtos</h1>
+    <br>
+    <mat-list class='lista-produtos' *ngFor='let p of produtos'>
+        <mat-list-item>Produto: {{p.nomeProduto}}</mat-list-item>
+        <mat-list-item>Descrição: {{p.descricaoProduto}}</mat-list-item>
+        <mat-list-item>Preço: R${{p.precoProduto}}</mat-list-item>
+        <mat-divider></mat-divider>
+      </mat-list>
+</mat-card>
+
