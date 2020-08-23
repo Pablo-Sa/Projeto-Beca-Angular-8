@@ -1,0 +1,9 @@
+footer{
+  background-color:#9AAE02;
+  color: white;
+  font-family: Cambria;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  padding: 10px;
+}

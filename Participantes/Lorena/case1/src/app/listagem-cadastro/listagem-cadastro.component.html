@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+  <link rel="stylesheet" type="text/css" href="/Primeiro-Projeto/src/app/boasvindas/boasvindas.component.css">
+
+</head>
+
+  <body >
+    <nav>
+      <ul>
+        <li><a routerLink="/boasvindas">Home</a></li>
+        <li><a routerLink="/cadastro">Cadastro</a></li>
+        <li><a routerLink="/listandocadastros">Relatório</a></li>
+      </ul>
+     </nav>
+
+    <div class="card-body">
+      <table class="table table-hover" *ngIf="cadastro$ | async as cad" >
+        <thead>
+          <tr>
+            <th>Projeto</th>
+            <th>Responsável</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let lista of cad" >
+
+            <td>{{lista.projeto}}</td>
+            <td>{{lista.responsavel}}</td>
+            <!-- <td>
+              <span class="float-right">
+                <button class="btn btn-outline-warning mb-1 btn-sm">
+                  Atualizar
+                </button>
+
+                <button class="btn btn-outline-danger mb-1 btn-sm" >
+                  Remover
+                </button>
+              </span>
+            </td> -->
+          </tr>
+        </tbody>
+      </table>
+
+      <ng-template #loading>
+        <span>Carregando Cursos...</span>
+      </ng-template>
+
+
+    </div>
+
+  </body>
+
+
+  </html>
