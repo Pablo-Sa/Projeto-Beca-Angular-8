@@ -1,0 +1,31 @@
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  
+  td {
+    padding-right: 8px;
+  }
+
+.registrar {
+    margin-left: 340px;
+    margin-top: 2%;
+    position: fixed;
+    max-width:220px;
+    border-radius:120px;
+    color: #9aae02;
+}
+
+.avancar {
+    margin-left: 420px;
+    margin-top: 2%;
+    position: fixed;
+    max-width:220px;
+    border-radius:120px;
+    color: #9aae02;
+}

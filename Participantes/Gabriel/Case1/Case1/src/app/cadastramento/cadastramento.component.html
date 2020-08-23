@@ -1,0 +1,26 @@
+<form (ngSubmit) = "onSubmit()" class="example-form">
+    <mat-form-field class="example-full-width">
+      <mat-label>Nome da República</mat-label>
+      <input name = "nomeRepublica" [(ngModel)] = "cadastro.nomeRepublica" matInput value="">
+    </mat-form-field>
+  
+    <table class="example-full-width" cellspacing="0">
+      <tr>
+        <td>
+          <mat-form-field class="example-full-width">
+          <mat-label>Responsável Atual</mat-label>
+        <input name = "nomeResponsavel" matInput [(ngModel)] = "cadastro.nomeResponsavel">
+      </mat-form-field>
+      </td>
+      <td>
+          <mat-form-field class="example-full-width">
+        <mat-label>Nº de Moradores</mat-label>
+        <input name = "numMoradores" matInput [(ngModel)] = "cadastro.numMoradores">
+      </mat-form-field></td>
+    </tr></table>
+
+  <button class = "registrar" mat-button>Registrar</button>
+
+</form>
+
+<button class = "avancar" mat-button routerLink="/lista">Avançar</button>

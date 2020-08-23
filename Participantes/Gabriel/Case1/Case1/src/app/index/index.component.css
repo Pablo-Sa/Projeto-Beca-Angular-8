@@ -1,0 +1,16 @@
+.mat-card-image {
+  padding:60px 50px 40px 50px;
+  background:#fff;
+  border-radius:10px;
+  max-width:600px;
+  margin-left: 200px;
+}
+
+button {
+    margin-left: 900px;
+    margin-top: -15%;
+    position: fixed;
+    max-width:90px;
+    border-radius:10px;
+    color: #9aae02;
+}

@@ -1,0 +1,23 @@
+<div class="login" fxLayout="row" fxLayoutAlign="center">
+
+  <mat-card class="box">
+    <mat-card-header>
+      <mat-card-title>Log in</mat-card-title>
+    </mat-card-header>
+
+    <form (ngSubmit)="onSubmit()">
+      <mat-card-content>
+        <mat-form-field>
+          <input matInput placeholder="Usuário" [(ngModel)] = "usuario.user" name = "id">
+        </mat-form-field>
+        <br/>
+        <mat-form-field>
+          <input matInput placeholder="Senha" type = "password" [(ngModel)] = "usuario.password" name = "pw">
+        </mat-form-field>
+      </mat-card-content>
+      <button mat-stroked-button color="primary" class="btn-block">Log in</button>
+    </form>
+  </mat-card>
+</div>
+
+<img src="https://99prod.s3.amazonaws.com/uploads/8eb4c111-31e3-469a-9515-18857d14212a/20815_1028618403816425_4686159767776236879_n.jpg">

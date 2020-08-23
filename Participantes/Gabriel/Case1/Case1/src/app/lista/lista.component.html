@@ -1,0 +1,10 @@
+<mat-card>
+    <h1>Lista</h1>
+    <br>
+    <mat-list *ngFor = 'let p of lista'>
+        <mat-list-item>Nome da República {{ p.nomeRepublica }}</mat-list-item>
+        <mat-list-item>Nome do Responsável {{ p.nomeResponsavel }}</mat-list-item>
+        <mat-list-item>Nº de Moradores {{ p.numMoradores }}</mat-list-item>
+        <mat-divider></mat-divider>
+      </mat-list>
+</mat-card>
