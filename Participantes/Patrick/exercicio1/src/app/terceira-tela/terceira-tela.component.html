@@ -1,0 +1,10 @@
+<div class="card">
+  <mat-card style="background-color: #f0f0f5;">
+    <form (ngSubmit)="onSubmit()">
+      <input type="text" [(ngModel)]="aluno.alunoNome" name="aluno" placeholder="Digite o nome do aluno">
+      <input type="text" [(ngModel)]="aluno.alunoClasse" name="classe"  placeholder="Digite a turma">
+
+      <button >Cadastrar</button>
+    </form>
+  </mat-card>
+</div>

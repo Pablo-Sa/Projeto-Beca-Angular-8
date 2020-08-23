@@ -1,0 +1,54 @@
+::-webkit-input-placeholder { /* WebKit browsers */
+  color: #9aae02;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #9aae02;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #9aae02;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: #9aae02;
+}
+
+* {
+  outline: none;
+}
+
+mat-card input {
+  background-color: #fff;
+  width: 350px;
+  border: 0;
+  padding: 16px 24px;
+  font-size: 16px;
+  outline: none; /*retira a borda quando clica em um campo*/
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  transition: background-color 400ms;
+}
+
+mat-card button {
+  width: 400px;
+  height: 56px;
+  background-color: #9aae02;
+  border-radius: 8px;
+  border: 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background-color 400ms;
+}
+
+mat-card input:hover {
+  background-color: gray;
+}
+
+mat-card button:hover{
+  background-color: #788327;
+}
