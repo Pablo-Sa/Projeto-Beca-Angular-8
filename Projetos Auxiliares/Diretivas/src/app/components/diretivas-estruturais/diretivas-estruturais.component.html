@@ -1,0 +1,55 @@
+<div>
+    <section style="margin: 10px 0 0 10px">
+        <h1>*ngIf</h1>
+
+        <label>O número </label>
+        <input type="number"  [(ngModel)]="number1">
+
+        <label> é maior </label>
+        <input type="number"   [(ngModel)]="number2">
+
+        <button (click)="verificar()">VERIFICAR
+        </button>
+
+        <div flex>
+            <div style="color: green; font-size: 35px; margin-top: 10px;" *ngIf="validation" flex>TRUE</div>
+            <div style="color: red; font-size: 35px; margin-top: 10px;" *ngIf="!validation" flex>FALSE</div>
+        </div>
+        <div flex>
+            <h1>Hello World contem world?</h1>
+            <div style="color: green; font-size: 35px; margin-top: 10px;" *ngIf="indexOf()" flex>TRUE</div>
+            <div style="color: red; font-size: 35px; margin-top: 10px;" *ngIf="!indexOf()" flex>FALSE</div>
+        </div>
+
+    </section>
+
+    <section style="margin: 70px 0 0 10px">
+        <h1>*ngSwitch</h1>
+
+        <label> Qual seu super heroi favorito?</label>
+        <input type="text"   [(ngModel)]="superhero">
+
+        <ul [ngSwitch]="superhero">
+            <li style="color: brown; font-size: 35px;" *ngSwitchCase="'Groot'">Groot</li>
+            <li style="color: red; font-size: 35px;" *ngSwitchCase="'Ironman'">Ironman</li>
+            <li style="color:green; font-size:35px" *ngSwitchCase="'Hulk'">Hulk</li>
+            <li style="color:yellow; font-size:35px" *ngSwitchCase="'Thor'">Thor</li>
+            <li style="color:royalblue; font-size:35px" *ngSwitchCase="'Spiderman'">Spiderman</li>
+            <li style="color:black; font-size:35px" *ngSwitchDefault>Batman</li>
+        </ul>
+    </section>
+
+    <section style="margin: 70px 0 0 10px">
+        <h1>*ngFor</h1>
+
+        <label>Número de repeticoes:</label>
+        <input type="number"  [(ngModel)]="numeroRepeticoes">
+        <button (click)="confirmar()">CONFIRMAR</button>
+        
+        <li *ngFor="let obj of iterations">
+            <span>{{obj.index}} {{obj.name}}</span>
+            <span>{{word1}}</span>
+        </li>
+    </section>
+</div>
+    

@@ -1,0 +1,27 @@
+<section class="event-binding">
+    <article>
+        <h3>Event Binding</h3>
+
+        <div>
+            <button (click)="clickEventHandler()"  class="btn btn-primary">Me Clique</button>
+        </div>
+
+        <br><br>
+
+        <input type="text"
+         (keyup)="onKeyUp($event)"
+         (keyup.enter)="valorSalvo($event.target.value)"
+         (blur)="valorSalvo($event.target.value)"
+        />
+
+        <p>Valor Atual do Input : {{ valorAtual }}</p>
+        <p>Valor Salvo do Input : {{ valorSalvoInput }}</p>
+
+        <span
+        (mouseover)="mouseout()"
+        (mouseout)="mouseout()"
+        [class.highlight]="isOnMouse"
+        > Passe o Mouse sobre mim
+        </span>
+    </article>
+</section>

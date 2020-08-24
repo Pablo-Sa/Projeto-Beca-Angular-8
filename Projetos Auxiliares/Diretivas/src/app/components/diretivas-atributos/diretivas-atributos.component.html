@@ -1,0 +1,48 @@
+<div>
+    <section style="margin: 10px 0 0 10px">
+        <h1>*ngStyle</h1>
+
+        <div>
+            <label>Mudar a cor para: </label>
+            <input type="text"  [(ngModel)]="color">
+
+            <label>Mudar o tamanho para: </label>
+            <input type="text"  [(ngModel)]="size">
+
+            <label>Mudar a fonte para: </label>
+            <input type="text"  [(ngModel)]="font">
+        </div>
+        
+        <div style="margin-top:40px">
+            <span [ngStyle]="{'color': color, 'font-family': font, 'font-size': size}">TESTE</span>
+        </div>
+    </section>
+
+    <section style="margin: 70px 0 0 10px">
+        <h1>*ngClass</h1>
+
+        <div>
+            <button (click)="mudar()">MUDAR CLASS</button>
+        </div>
+        
+        <div [ngClass]="changeClass ? 'style1' : 'style2'" style="margin-top:40px">
+            TESTE
+        </div>
+    </section>
+
+    <section style="margin: 70px 0 0 10px">
+        <h1>HostListener & HostBinding</h1>
+
+        <p [appDirectiveCustom]="'blue'" [defaultColor]="'yellow'">Teste Diretiva HostBinding</p>
+       
+    </section>
+
+    <section style="margin: 70px 0 0 10px">
+        <h1>HostListener & HostBinding - Minha primeira directiva</h1>
+
+        <p [appPrimeiraDirec]="'130px'" [color1]="'blue'" [color2]="'red'">Teste</p>
+       
+    </section>
+
+</div>
+    
