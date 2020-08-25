@@ -1,0 +1,38 @@
+<form [formGroup]="formulario" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="nome">Nome</label>
+      <input
+        type="text"
+        class="form-control"
+        id="nome"
+        name="nome"
+        formControlName="nome"
+        [ngClass]="{'error' : verificaErrosCampos('nome') }"
+      />
+      <div class="alert alert-danger" *ngIf="verificaErrosCampos('nome')" >
+          Nome é Obrigatório.
+      </div>
+    </div>
+    <!-- <div>
+        {{ nome.className }}
+    </div> -->
+  
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input
+        type="email"
+        class="form-control"
+        id="email"
+        name="email"
+        formControlName="email"
+        [ngClass]="{'error' : verificaErrosCampos('email') }"
+      />
+      <div class="alert alert-danger" *ngIf="verificaErrosCampos('email')" >
+          E-mail é Obrigatório.
+      </div>
+    </div>
+    <button type="submit" [disabled]="formulario.invalid" class="btn btn-primary">Submit</button>
+  
+    <app-form-debug [form]="formulario"></app-form-debug>
+  </form>
+  

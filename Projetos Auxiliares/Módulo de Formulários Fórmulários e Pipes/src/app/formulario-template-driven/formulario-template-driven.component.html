@@ -1,0 +1,42 @@
+<form #f="ngForm" (ngSubmit)="onSubmit(f)">
+
+  <!-- <div ngModelGroup="endereco"></div> Agrupar Campos no Formulário  -->
+  <div class="form-group">
+    <label for="nome">Nome</label>
+    <input
+      type="text"
+      class="form-control"
+      id="nome"
+      [(ngModel)]="usuario.nome"
+      name="nome"
+      required
+      #nome="ngModel"
+    />
+    <div class="alert alert-danger" *ngIf="nome.invalid && nome.touched" >
+        Nome é Obrigatório.
+    </div>
+  </div>
+  <!-- <div>
+      {{ nome.className }}
+  </div> -->
+
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input
+      type="email"
+      class="form-control"
+      id="email"
+      name="email"
+      [(ngModel)]="usuario.email"
+      required
+      email
+      #email="ngModel"
+    />
+    <div class="alert alert-danger" *ngIf="email.invalid && email.touched" >
+        E-mail é Obrigatório.
+    </div>
+  </div>
+  <button [disabled]="f.invalid" type="submit" class="btn btn-primary">Submit</button>
+
+  <app-form-debug [form]="f"></app-form-debug>
+</form>

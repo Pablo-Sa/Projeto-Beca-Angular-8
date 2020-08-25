@@ -1,0 +1,21 @@
+<div style="margin-top: 20px;" *ngIf="form" >
+    <div>
+        Detalhes do Formulário
+    </div>
+    <pre style=" background-color: rgb(196, 218, 218); border-radius: 10px;">
+        Form Válido: {{ form.valid }}
+    </pre>
+    <pre style=" background-color: rgb(196, 218, 218); border-radius: 10px;">
+        Form Submetido: {{ form.submitted }}
+    </pre>
+    <pre style=" background-color: rgb(196, 218, 218); border-radius: 10px;">
+        Valores: <br/> {{ form.value | json }}
+    </pre>
+    <pre style=" background-color: rgb(196, 218, 218); border-radius: 10px;">
+        Touched: <br/> {{ form.touched }}
+    </pre>
+    <pre style=" background-color: rgb(196, 218, 218); border-radius: 10px;">
+        Untouched: <br/> {{ form.untouched }}
+    </pre>
+
+</div>
