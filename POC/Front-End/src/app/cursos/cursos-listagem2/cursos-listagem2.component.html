@@ -1,0 +1,67 @@
+<div class="card mt-3">
+  <div class="card-header">
+    <div class="float-left">
+      <h4>Cursos</h4>
+    </div>
+    <div class="float-right">
+      <button type="button" class="btn everisCss" [routerLink]="['novo']">Novo Curso</button>
+    </div>
+  </div>
+  <div class="card-body">
+    <table class="table table-hover" *ngIf="completeLoading; else loading">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Curso</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let curso of cursos">
+          <td>{{ curso.id }}</td>
+          <td>{{ curso.nome }}</td>
+          <td>
+            <span class="float-right">
+              <button class="btn btn-outline-info mb-1 btn-sm" (click)="detalheCurso(curso.id)" >
+                Detalhes
+              </button>
+
+              <button class="btn btn-outline-warning mb-1 btn-sm" (click)="editarCurso(curso.id)" >
+                Atualizar
+              </button>
+
+              <button class="btn btn-outline-danger mb-1 btn-sm" (click)="onDelete(curso)" >
+                Remover
+              </button>
+            </span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <ng-template #loading>
+      <div *ngIf="errorLoading; else loadingCorrect">
+        <span>
+          Algum erro aconteceu ao tentar listar os Cursos.
+        </span>
+      </div>
+
+      <ng-template #loadingCorrect>
+        <div class="d-flex justify-content-center">
+          <div class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+        </div>
+      </ng-template>
+
+    </ng-template>
+  </div>
+</div>
+
+
+<ng-template #deleteCursoModal>
+  <div class="modal-body text-center">
+    <p>Deseja Realmente Remover este Curso?</p>
+    <button type="button" class="btn everisCss" (click)="onConfirmeDelete()" >Sim</button>
+    <button type="button" class="btn btn-secondary" (click)="onCancelDelete()">Não</button>
+  </div>
+</ng-template>

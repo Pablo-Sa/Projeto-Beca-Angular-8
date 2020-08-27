@@ -1,0 +1,39 @@
+<form
+  class="needs-validation styleModificado"
+  novalidate
+  [formGroup]="formulario"
+  (ngSubmit)="onSubmit()" 
+>
+  <div class="form-row">
+    <div class="col-sm-12">
+      <strong><label for="nome">Nome do Aluno</label></strong>
+
+      <input
+        type="text"
+        class="form-control styleModificadoInput"
+        id="aluno"
+        placeholder="Nome do Curso"
+        formControlName="aluno"
+        [ngClass]="{ 'is-invalid': hasError('aluno') && formSubmitted }"
+      />
+
+      <strong><label for="nome">Cursos Disponíveis</label></strong>
+      <select name="curso"
+        [ngClass]="[(hasError('curso') && formSubmitted) ? 'comboStyleAlert' : 'comboStyle']"
+        formControlName="curso">
+        <option
+        *ngFor="let cursoCurrency of cursos"
+         [value]="cursoCurrency.id"
+          >{{ cursoCurrency.nome }}</option
+        >
+      </select>
+      <div class="invalid-feedback" *ngIf="hasErrorDetected && formSubmitted">
+        Campo Obrigatório
+      </div>
+    </div>
+  </div>
+  <div class="styleModificado" >
+    <button type="submit" class="btn everisCss">Matricular</button>
+    <button class="btn btn-secondary" (click)="onCancel()">Cancelar</button>
+  </div>
+</form>

@@ -1,0 +1,18 @@
+<div class="card mt-3">
+  <div class="card">
+    <strong
+      ><h1 class="card-header">{{ curso?.nome }}</h1></strong
+    >
+    <div class="card-body">
+      <h3 class="card-title">Palestrante:</h3>
+      <p class="card-text">{{ curso?.palestrante }}</p>
+      <h3 class="card-title">Carga Horária:</h3>
+      <p class="card-text">{{ curso?.carga }}</p>
+      <h3 class="card-title">Alunos Matriculados:</h3>
+      <ul class="list-group" *ngFor="let aluno of curso?.alunos">
+        <li class="list-group-item">{{ aluno.nome }}</li>
+      </ul>
+      <button (click)="Back()" type="button" class="btn everisCss">Voltar</button>
+    </div>
+  </div>
+</div>

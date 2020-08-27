@@ -1,0 +1,15 @@
+{
+  "cursos": [
+    {
+      "id": 1,
+      "nome": "Angular 9",
+      "palestrante": "Pablo Vinícius",
+      "carga": "800hrs",
+      "aluno": [
+        {
+          "nome": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+<form class="needs-validation styleModificado" novalidate [formGroup]="formulario" (ngSubmit)="onSubmit()" >
+    <div class="form-row">
+      <div class="col-sm-12">
+        <strong><label for="nome">Nome do Curso</label></strong>
+        <input
+          type="text"
+          class="form-control styleModificadoInput"
+          id="nome"
+          placeholder="Nome do Curso"
+          formControlName="nome"
+          [ngClass]="{'is-invalid': hasError('nome') && formSubmitted}"
+        />
+        <strong><label for="nome">Palestrante</label></strong>
+        <input
+          type="text"
+          class="form-control styleModificadoInput"
+          id="nome"
+          placeholder="Palestrante"
+          formControlName="palestrante"
+          [ngClass]="{'is-invalid': hasError('nome') && formSubmitted}"
+        />      <strong><label for="nome">Carga Horária</label></strong>
+        <input
+          type="text"
+          class="form-control styleModificadoInput"
+          id="nome"
+          placeholder="Carga Horária"
+          formControlName="carga"
+          [ngClass]="{'is-invalid': hasError('nome') && formSubmitted}"
+        />
+        <div class="invalid-feedback" *ngIf="hasError('nome') && formSubmitted">
+          Campo Obrigatório
+        </div>
+      </div>
+  
+    </div>
+    <div class="styleModificado">
+        <button type="submit" class="btn btn-primary">Salvar</button>
+        <button class="btn btn-secondary" (click)="onCancel()" >Cancelar</button>
+    </div>
+  </form>
+  
