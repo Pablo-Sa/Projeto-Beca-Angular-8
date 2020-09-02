@@ -1,0 +1,37 @@
+<div>
+
+  <form >
+    <mat-card-title>Preencha com os dados da praça:</mat-card-title>
+      <mat-form-field appearance="legacy">
+          <mat-label>CEP</mat-label>
+          <input matInput placeholder="00000-000"  name="cep" [(ngModel)]="cep.cep"  required>
+          <mat-hint>Preencha com o CEP</mat-hint>
+          </mat-form-field>
+           <button mat-mini-fab color="primary" (click)="search()"><mat-icon>search</mat-icon></button>
+          <br>
+          <mat-form-field appearance="legacy">
+              <mat-label>Cidade</mat-label>
+              <input matInput placeholder="Uberlândia" name="cid" [(ngModel)]="cep.city" >
+              <mat-hint>Nome da cidade</mat-hint>
+              </mat-form-field>
+              <mat-form-field appearance="legacy">
+                  <mat-label>Bairro</mat-label>
+                  <input matInput placeholder="Santa Mônica"name="bairro" [(ngModel)]="cep.neighborhood" >
+                  <mat-hint>Nome do Bairro</mat-hint>
+                  </mat-form-field>
+                  <mat-form-field appearance="legacy">
+                      <mat-label for="Estado">Estado</mat-label>
+                      <input matInput placeholder="Minas Gerais" id="Estado"name="est" [(ngModel)]="cep.state" >
+                      <mat-hint>Região</mat-hint>
+                      </mat-form-field>
+                      <mat-form-field appearance="legacy">
+                          <mat-label>Rua</mat-label>
+                          <input matInput placeholder="Rua" name="log" [(ngModel)]="cep.street" >
+                          <mat-hint>Rua</mat-hint>
+                          </mat-form-field>
+                  
+
+
+                          </form>
+
+  </div>

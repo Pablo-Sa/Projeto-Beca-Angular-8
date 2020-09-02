@@ -1,0 +1,9 @@
+mat-toolbar{
+    font-family:Arial, Helvetica, sans-serif;
+    height: 20px;
+    background-image: linear-gradient(to right,yellowgreen, #000000);
+    position: fixed;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+}

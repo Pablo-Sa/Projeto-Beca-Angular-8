@@ -1,0 +1,77 @@
+
+<div class='div-login'  fxLayout="row" fxLayoutAlign="space-around center" >
+  <div align="center" fxLayout="row" fxLayoutAlign="center center"  class="register-form">
+
+    <form role="form" [formGroup]="formRegister" (ngSubmit)="onSubmit()">
+
+    <mat-card class="mat-elevation-z8" flex="80">
+
+      <mat-card-title>Criar conta</mat-card-title>
+
+      <mat-card-content fxLayout="column" fxLayoutAlign="space-around stretch">
+
+        <div fxLayout="row" fxLayoutAlign="space-between stretch">
+          <mat-form-field fxFlex="45">
+            <input matInput  type="text" formControlName="firstname"
+              autocomplete="firstname" placeholder="Primeiro nome">
+          </mat-form-field>
+          <mat-form-field fxFlex="45">
+            <input matInput type="text"  formControlName="lastname"
+              autocomplete="lastname" placeholder="Sobrenome" >
+          </mat-form-field>
+        </div>
+
+
+
+        <div fxLayout="row" fxLayoutAlign="space-between stretch" >
+          <mat-form-field fxFlex="45">
+            <input matInput type="text" formControlName="phone"
+              autocomplete="Phone" placeholder="N° de celular"  >
+          </mat-form-field>
+
+
+        </div>
+
+          <div fxLayout="row" fxLayoutAlign="space-between stretch" >
+          <mat-form-field fxFlex="100">
+            <input matInput type="email" formControlName="email"
+              class="form-control" value="" autocomplete="email" placeholder="E-mail" >
+          </mat-form-field>
+        </div>
+
+        <div fxLayout="row" fxLayoutAlign="space-between stretch">
+
+          <mat-form-field  fxFlex="45" >
+            <input matInput type="password" formControlName="password1"
+              type="password" autocomplete="off">
+            <mat-placeholder>
+              <mat-icon>lock</mat-icon> Nova senha
+            </mat-placeholder>
+          </mat-form-field>
+          <mat-form-field fxFlex="45">
+            <input matInput type="password" formControlName="password2"
+                  class="form-control"  autocomplete="off">
+            <mat-placeholder>
+              <mat-icon>lock_outline</mat-icon> Confirme a senha
+            </mat-placeholder>
+          </mat-form-field>
+
+        </div>
+
+
+        <div fxLayout="row" fxLayoutAlign="end end" >
+            <button mat-button color="primary" type="submit" [disabled]="!formRegister.valid">
+              <mat-icon>done</mat-icon>&nbsp;Cadastrar
+            </button>
+            <button class='button-login' mat-button color="primary" routerLink="/auth/login">
+              Login
+            </button>
+        </div>
+
+        </mat-card-content>
+
+    </mat-card>
+    </form>
+
+  </div>
+</div>

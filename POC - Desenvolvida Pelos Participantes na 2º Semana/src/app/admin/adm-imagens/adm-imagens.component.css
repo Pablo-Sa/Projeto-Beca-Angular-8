@@ -1,0 +1,9 @@
+.card-imagens {
+    max-width: 400px;
+    margin: 40px;
+  }
+  
+  .card-avatar-imagens {
+    background-image: url('https://scontent.frao1-1.fna.fbcdn.net/v/t1.0-9/23755502_539539069713231_7324947637888083106_n.jpg?_nc_cat=107&_nc_sid=09cbfe&_nc_eui2=AeGTgwEc8T1MFG2VfsYNiPRbWOZSnBGqrbZY5lKcEaqttqvt5KvS1AlzqO9B9RBXajc2Nr6DS9fyahePU4Y688mA&_nc_ohc=JhBjM1Gzly4AX-7adWI&_nc_ht=scontent.frao1-1.fna&oh=aff5f37fee8b168daf822d8a77e8afe3&oe=5F6C2488');
+    background-size: cover;
+  }

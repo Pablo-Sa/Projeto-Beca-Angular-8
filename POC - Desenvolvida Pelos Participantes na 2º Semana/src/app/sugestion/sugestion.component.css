@@ -1,0 +1,52 @@
+mat-form-field{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.div-principal{
+  margin: 40px;
+  border: solid 1px yellowgreen;
+  border-radius: 10px;
+}
+
+.div-secundaria{
+  padding: 20px;  
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.title{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+  margin: 10px;
+  margin-top: 40px;
+  margin-right: 40px;
+}
+
+.button-submit{
+  color: #ffffff;
+  background-color: rgba(25, 170, 25, 0.61);
+}
+
+.button-clear{
+  color: #ffffff;
+  background-color: rgb(212, 212, 44);
+}
+
+.button-cancel{
+  color: #ffffff;
+  background-color: rgb(247, 82, 82);
+}
+
+.div-buttons{
+  text-align: center;
+}
+
+.custom-dropzone{
+  background-color: #e4e4e4;
+}
+
+

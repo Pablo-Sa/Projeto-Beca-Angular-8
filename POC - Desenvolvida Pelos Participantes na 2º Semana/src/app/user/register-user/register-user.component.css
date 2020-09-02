@@ -1,0 +1,20 @@
+mat-form-field{
+margin-right: 20px;
+margin-left: 20px;
+}
+
+.div-login{
+    margin: 40px;
+    border: 1px solid yellowgreen;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+.button-login{
+    border: 1px solid yellowgreen;
+    background-color: yellowgreen;
+    color: #ffffff;
+}
+

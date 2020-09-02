@@ -1,0 +1,29 @@
+<mat-toolbar>
+    <span>PROJETO ACADEMY</span>
+    <ng-container *ngIf="admin$== true">
+      <button mat-button routerLink="/admin" color='waring'>Admin</button>
+    </ng-container>
+    <div>
+          <ng-container *ngIf="!(authenticated$ |async)">
+      <button mat-button routerLink="/auth/login"><mat-icon>input</mat-icon>Login</button>
+      <button mat-button routerLink="/auth/register"><mat-icon>person_add</mat-icon>Criar conta</button>
+    </ng-container>
+    <ng-container *ngIf="(authenticated$|async) && (user$|async)">
+      <div id="buu">
+      <button mat-icon-button routerLink="/"><mat-icon>home</mat-icon></button>
+
+      <button mat-icon-button (click)="logout()"><mat-icon>exit_to_app</mat-icon></button>
+
+    <button mat-icon-button routerLink="/perfil" [matMenuTriggerFor]="profileMenu">
+      <mat-icon>account_circle</mat-icon>
+    </button>
+    <mat-menu xPosition="before" [overlapTrigger]=false
+    #profileMenu="matMenu" class="before">
+  <p class="username">{{(user$|async)?.email}}</p>
+  <mat-divider></mat-divider>
+  <button mat-menu-item> <mat-icon>exit_to_app</mat-icon>Exit</button>
+</mat-menu>
+</div>
+    </ng-container>
+    </div>
+</mat-toolbar>

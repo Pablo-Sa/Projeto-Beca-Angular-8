@@ -1,0 +1,15 @@
+<mat-card class="card-imagens">
+    <mat-card-header>
+      <div mat-card-avatar class="card-avatar-imagens"></div>
+      <mat-card-title>{{registro.User.firstname}}</mat-card-title>
+      <mat-card-subtitle>{{registro.User.email}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src='{{imagenSugestao}}' alt="Imagem Sugestão">
+    <mat-card-content>
+      <p>
+        {{registro.comment}}
+      </p>
+    </mat-card-content>
+  </mat-card>
+
+  

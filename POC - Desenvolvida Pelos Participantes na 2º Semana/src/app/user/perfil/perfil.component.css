@@ -1,0 +1,74 @@
+h1 {
+  color: gray;
+  font-weight: bold;
+}
+
+.cartao {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+mat-card {
+  width: 600px;
+  height: 500px;
+  background-color: #f0f0f5;
+}
+
+input {
+  background-color: #fff;
+  width: 240px;
+  border: 0;
+  padding: 16px 24px;
+  font-size: 16px;
+  outline-color: yellowgreen; /*retira a borda quando clica em um campo*/
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-left: 9px;
+  transition: background-color 400ms;
+}
+
+label #last-name{
+  margin-left: 50px;
+}
+
+#email {
+  width: 540px;
+}
+
+.formulario {
+  position: absolute;
+  margin-bottom: 50px;
+}
+
+label {
+  color: yellowgreen;
+  font-weight: bold;
+}
+
+.custom-dropzone {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 130px;
+  height: 130px;
+  display: flex;
+  border: yellowgreen solid 1px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: background-color 400ms;
+}
+
+.custom-dropzone:hover {
+  background-color: rgba(223, 233, 223, 0.7);
+}
+
+.header-perfil {
+  display: flex;
+  justify-content: space-between;
+
+}

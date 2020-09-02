@@ -1,0 +1,28 @@
+mat-form-field{
+  margin-right: 20px;
+  margin-left: 20px;
+  }
+
+.login-card{
+  border: 1px solid yellowgreen;
+  margin: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 20%;
+  text-align: center;
+}
+
+mat-card-title{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.buttons{
+  text-align: center;
+  
+}
+
+button{
+  border: 1px solid;
+}
+

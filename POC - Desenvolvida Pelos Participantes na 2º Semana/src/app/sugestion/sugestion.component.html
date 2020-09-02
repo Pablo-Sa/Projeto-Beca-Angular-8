@@ -1,0 +1,38 @@
+<div fxFill class='div-principal'>
+  <div class='div-secundaria' fxLayout="column" fxLayoutAlign="space-around stretch">
+    <form #forms='ngForm' [formGroup]="sugestionForm" (ngSubmit)="onSubmit(forms)" fxLayout="row" fxLayoutAlign="space-around stretch" #f  >
+      <h1 class='title'>Reclamação/Sugestão</h1>
+      <mat-form-field fxFlex="40">
+        <mat-label>Situação</mat-label>
+        <mat-select formControlName="type">
+          <mat-option value="Elogio">Elogio</mat-option>
+          <mat-option value="Sugestao">Sugestão</mat-option>
+          <mat-option value="Reclamacao">Reclamação</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field fxFlex="20" class="example-full-width" style="width: 80%;">
+        <mat-label>Conte-nos</mat-label>
+        <textarea matInput placeholder="Escreva seu comentario" formControlName='comment'></textarea>
+      </mat-form-field>
+
+      <div class="custom-dropzone" ngx-dropzone (change)="onSelect($event)" id="file" #userPhoto
+        name="image">
+        <ngx-dropzone-label>
+          <div>
+            <h2>Arraste ou click para adicionar imagens</h2>
+          </div>
+        </ngx-dropzone-label>
+        <ngx-dropzone-image-preview ngProjectAs="ngx-dropzone-preview" *ngFor="let f of files" [file]="f"
+          [removable]="true" (removed)="onRemove(f)">
+          <ngx-dropzone-label>{{ f.name }} ({{ f.type }})</ngx-dropzone-label>
+        </ngx-dropzone-image-preview>
+      </div>
+      <div class='div-buttons' fxLayout="row" fxLayoutAlign="end end">
+        <button class='button-submit' mat-button color="primary" type="submit" [disabled]="!sugestionForm.valid">Enviar</button>
+        <button class='button-cancel' mat-button color="warn" type="reset"(click)="onRemoveMulti()">Cancelar</button>
+      </div>
+    </form>
+  </div>
+</div>
+<app-dropzone></app-dropzone>

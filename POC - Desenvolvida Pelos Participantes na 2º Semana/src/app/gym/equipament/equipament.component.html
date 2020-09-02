@@ -1,0 +1,21 @@
+<div *ngFor="let c of display">
+<mat-card class="example-card" >
+  <mat-card-header>
+
+    <mat-card-title>{{c.name}}</mat-card-title>
+  </mat-card-header>
+  <img mat-card-image src={{c.img}}  class="imagem">
+  <mat-card-content>
+    <p>
+     {{c.decription}}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button (click)="add(c)">+</button>
+    {{c.qty}}
+    <button mat-button (click)="remove(c)">-</button>
+  </mat-card-actions>
+</mat-card>
+<br>
+</div>
+
