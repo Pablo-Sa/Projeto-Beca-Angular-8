@@ -5,7 +5,6 @@ Data: 17/08/2020 a 29/08/2020 Horário: 9h às 18h
 ## Palestrantes
  - Pablo Vinícius Pereira de Sá
  - Jose Ribeiro Sousa
- - Gustavo Rodovalho Oliveira
 
 # POC (Prova de conceito)
   - Será desenvolvida uma aplicação durante a 2º Semana do Curso, afim de aplicar todos os Conceitos deste curso.
