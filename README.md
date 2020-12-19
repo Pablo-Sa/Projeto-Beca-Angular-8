@@ -1,35 +1,14 @@
-# Projeto Everis Beca Angular 8 
+# Projeto Everis Beca Angular 8 - 2º Edição
 🎓 [PT-BR] Projeto Beca Angular 8 (v2+) </br>
-Data: 17/08/2020 a 29/08/2020 Horário: 9h às 18h
+Data: 21/12/2020 a 15/01/2021 Horário: 9h às 18h
 
 ## Palestrantes
  - Pablo Vinícius Pereira de Sá
  - Jose Ribeiro Sousa
 
 # POC (Prova de conceito)
-  - Será desenvolvida uma aplicação durante a 2º Semana do Curso, afim de aplicar todos os Conceitos deste curso.
-## Link de Acesso
- Já realizado o Deploy da mesma em ambiente de Produção, clique abaixo para acessar. </br></br>
- OBS: O Back-End desta aplicação está hospedada em um Servidor Heroku, informo que o mesmo em algumas redes corporativas é bloqueado, qualquer divergência acesse pela sua
- rede particular com sua máquina que não está ingressada em um domínio que possa ter restrições de acesso.
- 
- http://www.ondeployment.com.br/beca-angular
-## Credenciais de Acesso
-   Usuário: admin </br>
-   Senha: Mudar@123
-   
-## Fontes da Aplicação   
- Na Raiz deste repositório existe uma pasta chamada POC, nela contém duas pastas uma referente ao Back-End desta aplicação que foi desenvolvido em Java
- que não é o foco do nosso curso porém caso queira aprender mais sobre como criar uma API usando as boas práticas e Segurança com Spring Security e JWT, 
- validações, Hibernate e etc sugiro a mesma como estudo, na paste existe outro Readme bem explicativo das tecnologias envolvidas, fica a dica. A outra pasta é referente ao Front-End desenvolvido em Angular, porém disponibilizarei os fontes da mesma no decorrer da 2º Semana, nela iremos implementar Guardas de Rotas, Conceitos de Autenticação Importantes, LocalStorage, utilizaremos o framework Bootstrap para facilitar na estilização, aprenderemos alguns padrões de projeto como Observer, Factory etc.
- 
-## Importante 
- Este evento chegou ao fim, parabéns aos participantes que se empenharam muito, e como fruto do seus esforços, na 2º Semana da Beca foi desenvolvida, somente pelos próprios participantes uma POC, excelente trabalho, onde foi implementado várias tecnologias que segue, utilizando o Framework Angular como base: Angular Material, Integração com Serviços em Nuvem do Firebase, Criação de DropZone, Criação de Mapas e várias outras recursos super legais. Abaixo segue o Link da aplicação onde realizaram o deploy da mesma,
-e será solicitado o login que pode ser realizado com uma conta do Gmail. Parabéns ao pessoal que foram muito além do que foi ministrado no Curso.
-
-Link: https://salsicha1001.github.io/ProjetoBeca/auth/login
-   
- 
+  - Será desenvolvida uma aplicação durante a 2º Semana do Curso, afim de aplicar todos os Conceitos aprendidos.
+  
 # Lista das aulas
 
 Aulas Ministradas/Programadas
