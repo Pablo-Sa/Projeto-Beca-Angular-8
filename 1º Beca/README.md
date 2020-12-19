@@ -1,4 +1,4 @@
-# Projeto Everis Beca Angular 8 
+# Projeto Everis Beca Angular 8 - 1º Edição
 🎓 [PT-BR] Projeto Beca Angular 8 (v2+) </br>
 Data: 17/08/2020 a 29/08/2020 Horário: 9h às 18h
 
