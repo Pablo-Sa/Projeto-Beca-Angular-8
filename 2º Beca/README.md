@@ -8,6 +8,23 @@ Data: 21/12/2020 a 15/01/2021 Horário: 9h às 18h
 
 # POC (Prova de conceito)
   - Será desenvolvida uma aplicação durante a 2º Semana do Curso, afim de aplicar todos os Conceitos aprendidos.
+  - Para apoio ao desenvolvimento da mesma, desenvolvi uma POC que pode auxiliar como projeto base, abaixo segue mais informações.
+  
+## Link de Acesso
+ Já realizado o Deploy da mesma em ambiente de Produção, clique abaixo para acessar. </br></br>
+ OBS: O Back-End desta aplicação está hospedada em um Servidor Heroku, informo que o mesmo em algumas redes corporativas é bloqueado, qualquer divergência acesse pela sua
+ rede particular com sua máquina que não está ingressada em um domínio que possa ter restrições de acesso.
+ 
+ http://www.ondeployment.com.br/beca-angular
+## Credenciais de Acesso
+   Usuário: admin </br>
+   Senha: Mudar@123
+   
+## Fontes da Aplicação   
+ Na Raiz deste repositório existe uma pasta chamada POC, nela contém duas pastas uma referente ao Back-End desta aplicação que foi desenvolvido em Java
+ que não é o foco do nosso curso porém caso queira aprender mais sobre como criar uma API usando as boas práticas e Segurança com Spring Security e JWT, 
+ validações, Hibernate e etc sugiro a mesma como estudo, na paste existe outro Readme bem explicativo das tecnologias envolvidas, fica a dica. A outra pasta é referente ao Front-End desenvolvido em Angular, porém disponibilizarei os fontes da mesma no decorrer da 2º Semana, nela iremos implementar Guardas de Rotas, Conceitos de Autenticação Importantes, LocalStorage, utilizaremos o framework Bootstrap para facilitar na estilização, aprenderemos alguns padrões de projeto como Observer, Factory etc.  
+  
   
 # Lista das aulas
 
