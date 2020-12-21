@@ -1,0 +1,38 @@
+body {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.google-logo {
+  position: absolute;
+  margin: 10em 32.5em;
+}
+#searchbar {
+    position: absolute;
+    top: 260px;
+    left: 375px;
+    width: 580px;
+    height: 30px;
+    border: 1px solid #cdcdcd;
+  }
+  
+  #botao_pesquisa {
+    position: absolute;
+    top: 310px;
+    left: 550px;
+    border: 1px solid #dcdcdc;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 2px;
+  }
+  #botao_sorte {
+    position: absolute;
+    top: 310px;
+    left: 680px;
+    border: 1px solid #dcdcdc;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 2px;
+  }
