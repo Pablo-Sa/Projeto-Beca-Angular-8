@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleIndex.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <div id="form">
+        <fieldset class="formulario">
+            <legend>Informações pessoais</legend>
+            <form method="GET" action="http://127.0.0.1:5500/search.html">
+                <label for="pnome">Nome:</label><br>
+                <input type="text" id="pnome" name="pnome"><br>
+
+                <label for="lname">Sobrenome:</label><br>
+                <input type="text" id="lname" name="lname"><br><br>
+
+                <label for="datanasc">Data de nascimento:</label><br>
+                <input type="date" id="datanasc" name="datanasc"><br><br>
+
+                <label for="genero">Gênero:</label><br>
+                <input type="radio" id="masculino" name="genero" value="masculino">
+                <label for="masculino">Masculino</label><br>
+
+                <input type="radio" id="feminino" name="genero" value="feminino">
+                <label for="feminino">Feminino</label><br>
+
+                <input type="radio" id="outro" name="genero" value="outro">
+                <label for="outro">Não informar</label><br><br>
+
+                <label for="estado">Estado:</label>
+                <select id="estado" name="estado">
+                    <option value="sc">Santa Catarina</option>
+                    <option value="pr">Paraná</option>
+                    <option value="mg">Minas Gerais</option>
+                    <option value="rj">Rio de Janeiro</option>
+                </select><br><br>
+
+                <label for="tel">Telefone:</label><br>
+                <input type="tel" id="foneid" placeholder="(XX)XX-XX-XX-XX" name="fone" /><br><br>
+                
+
+                <input class="botao" type="submit" value="Enviar">
+            </form>
+        </fieldset>
+    </div>
+
+
+</body>
+
+</html>

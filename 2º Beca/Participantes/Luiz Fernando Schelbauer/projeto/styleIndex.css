@@ -1,0 +1,47 @@
+label {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.botao {
+    border-color: black;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    color: black;
+}
+
+.botao:hover {
+    background:black;
+    color:white;
+    border-color: white;
+}
+
+.botao:active {
+    padding: 10px;
+}
+
+
+.formulario {
+    background-color: rgba(162, 221, 102, 0.226);
+}
+
+body {
+    background-image: url("images/everisbackground.jpg");
+    text-align: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.formulario {
+    position: absolute;
+    width: 330px;
+    
+}
+
+#form {
+    position: absolute;
+    padding-left: 36%;
+    padding-top: 5%;
+}
+
+
