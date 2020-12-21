@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(116, 146, 71);
+    background-color: rgb(243, 239, 239);
+    background-image: url(/logo_everis_triangulo.svg);
+    background-size: cover;
+    
+}
+
+fieldset {
+    background-color: rgb(255, 255, 255);
+    border-radius: 9px;
+    border-color: rgb(116, 146, 71);
+}
+
+fieldset > legend {
+    color: rgb(72, 109, 17);
+    
+}
+
+input:hover {
+    border: 2px solid rgb(175, 174, 174);
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="list"]{
+    outline-color: rgb(175, 174, 174);
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    padding: 3px;
+    background-clip: content-box;
+    border: 2px solid rgb(116, 146, 71);
+    border-radius: 50%;
+    outline-color: rgb(116, 146, 71);
+  }
+  
+  input,input[type="list"] {
+    border: 1px solid  rgb(116, 146, 71);
+    border-radius: 3px;
+    color: rgb(31, 31, 31);
+
+}
+
+input[type="button"], input[type="submit"] {
+    background-color:rgb(116, 146, 71);
+    color: rgb(236, 236, 236);
+    width: 100px;
+    height: 27px;
+
+}
+
+input[type="button"]:hover, input[type="submit"]:hover {
+    background-color: rgb(236, 236, 236);
+    color: rgb(116, 146, 71);
+    width: 102px;
+    height: 29px;
+    
+}
+
+input[type="radio"]:checked {
+    background-color: rgb(116, 146, 71);
+  }
+
+a > input {
+    margin-left: 190px;
+}
+
+#pesquisar {
+    margin-left: 10px;
+    
+}
+
+#pesquisar input[type="text"] {
+    width: 350px;
+    height: 25px;
+
+}
