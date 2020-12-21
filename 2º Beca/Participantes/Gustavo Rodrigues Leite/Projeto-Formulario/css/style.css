@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: azure;
+}
+
+.formulario {
+    margin-left: 20px;
+}
+
+.fundo-do-form {
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b6e026+0,abdc28+100;Green+Flat */
+background: #b6e026; /* Old browsers */
+background: -moz-linear-gradient(top,  #b6e026 0%, #abdc28 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #b6e026 0%,#abdc28 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #b6e026 0%,#abdc28 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b6e026', endColorstr='#abdc28',GradientType=0 ); /* IE6-9 */
+
+}
+
+.enviar{
+    background-color: #030303;
+    color: white;
+    border: none;
+    width: 100px;
+    text-decoration: none;
+    height: 30px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.enviar:hover {
+}
+
+label {
+    color: white;
+}
+
+.logo {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.logo-everis {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.input-pesquisa {
+    text-align: center;
+}
+
+.botao-pesquisa {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.enviar-pesquisa{
+    background-color: #b6e026;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+
+.container {
+    width: 100%;
+   
+}
+
+.formulario {
+margin-left: 160px;
+}
