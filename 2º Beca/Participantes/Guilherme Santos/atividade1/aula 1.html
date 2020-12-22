@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="estiloAula1.css"/>
+        <title>Formulario</title>
+    </head>
+    <body>
+        <div class="div1">
+            <form name="form" method="GET" action="http://google.com/search">
+                Nome:
+                <input type="text" name="q" id="nome"/>
+                <br><br> Sobrenome:
+                <input type="text" name="q" id="sobrenome"/>
+                <br><br> Data de nascimento:
+                <input type="date" name="q" id="nascimento"/>
+                <br><br> Genero:
+                <input type="radio" name="q" id="masculino"/>
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="q" id="feminino"/>
+                <label for="feminino">Feminino</label>
+                <br><br> País de origem:
+                <select id="pais" name="q">
+                    <Option value="brasil">Brasil</Option>
+                    <Option value="mexico">Mexico</Option>
+                    <Option value="argentina">Argentina</Option>
+                    <Option value="venezuela">Venezuela</Option>
+                    <Option value="colombia">Colômbia</Option>
+                    <Option value="chile">Chile</Option>
+                    <Option value="peru">peru</Option>
+                    <Option value="equador">Equador</Option>
+                    <Option value="repDom">República Dominicana</Option>
+                    <Option value="guatemala">Guatemala</Option>
+                </select>
+                <br><br> Celular:
+                <input type="text" name="q" id="celular" placeholder="(xx) xxxx-xxxx"/>
+                <br><br><input type="submit" name="submit" value="Buscar"/>
+            </form>
+        </div>
+    </body>
+</html>
