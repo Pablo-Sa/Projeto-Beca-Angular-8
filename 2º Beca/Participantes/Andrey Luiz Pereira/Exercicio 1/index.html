@@ -9,6 +9,7 @@
 <body>
     <section>
         <header>
+            <img src="everis.png" alt="Logo Everis">
             <h2>Digite seus dados no formulário abaixo:</h2>
         </header>
         <article>
@@ -18,17 +19,20 @@
                 </legend>
         
                 <form action="informacoesPessoais" method="post">
-        
+
                     <label for="nome">
-                        <p>Nome: <input type="text" id="nome" name="Nome" required></p>
-                    </label>
+                        <p>Nome:   
+                         <input type="text" id="nome" name="Nome" required></p>
+                     </label>
         
                     <label for="sobrenome">
-                        <p>Sobrenome: <input type="text" id="sobrenome" name="Sobrenome" required></p>
-                    </label>
+                        Sobrenome:
+                        <input type="text" id="sobrenome" name="Sobrenome" required>
+                    </label> 
         
                     <label for="data">
-                        <p>Data: <input type="date" id="data" name="Data" required></p>
+                        <p>Data:
+                         <input type="date" id="data" name="Data" required></p>
                     </label>
         
                     <label for="genero">
@@ -40,9 +44,10 @@
                             <input type="radio" id="naoInformar"  name="Genêro" value="naoinformar" checked="checked" required> Não Informar</p>
                     </label>
         
-                    <label for="listaPaises">
-                        <input list="pais" value="Brasil">
-                        <p><datalist id="pais" value="Pais" name=Pais>
+                    <label for="listaPaises">                        
+                        <p>País:
+                        <input list="pais" value="Brasil">    
+                        <datalist id="pais" value="Pais" name=Pais>
                             <option value="África do Sul">África do Sul</option>
                             <option value="Albânia">Albânia</option>
                             <option value="Alemanha">Alemanha</option>
@@ -83,7 +88,8 @@
                             <option value="Congo">Congo</option>
                             <option value="Coréia do Sul">Coréia do Sul</option>
                             <option value="Costa do Marfim">Costa do Marfim</option>
-                            <option value="Costa Rica">Costa Rica</option>                        <option value="Croácia">Croácia</option>
+                            <option value="Costa Rica">Costa Rica</option>                        
+                            <option value="Croácia">Croácia</option>
                             <option value="Dinamarca">Dinamarca</option>
                             <option value="Djibuti">Djibuti</option>
                             <option value="Dominica">Dominica</option>
@@ -91,7 +97,8 @@
                             <option value="Egito">Egito</option>
                             <option value="El Salvador">El Salvador</option>
                             <option value="Emirados Árabes">Emirados Árabes</option>
-                            <option value="Equador">Equador</option>                        <option value="Eritréia">Eritréia</option>
+                            <option value="Equador">Equador</option>                        
+                            <option value="Eritréia">Eritréia</option>
                             <option value="Escócia">Escócia</option>
                             <option value="Eslováquia">Eslováquia</option>
                             <option value="Eslovênia">Eslovênia</option>
@@ -214,7 +221,8 @@
                             <option value="Zaire">Zaire</option>
                             <option value="Zâmbia">Zâmbia</option>
                             <option value="Zimbábue">Zimbábue</option>
-                        </datalist></p>
+                        </datalist>
+                        </p>
                     </label>
         
                    <p> <label for="celular">
