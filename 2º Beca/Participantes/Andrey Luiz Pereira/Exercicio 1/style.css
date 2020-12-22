@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+@import url('https://fonts.googleapis.com/css?family=Roboto:200,400');
 html {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -9,15 +9,29 @@ body {
     align-items: center;
     color: rgb(155, 174, 5);
     background-color: rgb(243, 239, 239);
-    background-image: url(everis.svg);
-    background-size: cover;
     
+}
+
+header {
+    margin-left: 15px;
+    
+}
+
+img {
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-bottom: 25px;
+
 }
 
 fieldset {
     background-color: rgb(255, 255, 255);
     border-radius: 9px;
     border-color: rgb(155, 174, 5);
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
 }
 
 fieldset > legend {
@@ -27,13 +41,16 @@ fieldset > legend {
 
 input:hover {
     border: 2px solid rgb(175, 174, 174);
+
 }
 
 input[type="text"],
 input[type="number"],
 input[type="date"],
-input[type="list"]{
+input[type="datalist"]{
     outline-color: rgb(175, 174, 174);
+    height: 16px;
+
 }
 
 input[type="radio"] {
@@ -48,12 +65,15 @@ input[type="radio"] {
     border: 2px solid rgb(155, 174, 5);
     border-radius: 50%;
     outline-color: rgb(155, 174, 5);
+
   }
   
   input,input[type="list"] {
+    text-align: center;
     border: 1px solid rgb(155, 174, 5);
     border-radius: 3px;
     color: rgb(31, 31, 31);
+    outline-color: rgb(175, 174, 174);
 
 }
 
@@ -66,7 +86,8 @@ input[type="button"], input[type="submit"] {
 }
 
 input[type="button"]:hover, input[type="submit"]:hover {
-    background-color: rgb(236, 236, 236);
+    background-color: white;
+    font-size: 0.4cm;
     color: rgb(155, 174, 5);
     width: 102px;
     height: 29px;
@@ -75,10 +96,12 @@ input[type="button"]:hover, input[type="submit"]:hover {
 
 input[type="radio"]:checked {
     background-color: rgb(155, 174, 5);
-  }
+
+}
 
 a > input {
-    margin-left: 190px;
+    margin-left: 150px;
+    
 }
 
 #pesquisar {
@@ -90,4 +113,14 @@ a > input {
     width: 350px;
     height: 25px;
 
+}
+
+h3 {
+    margin-top: 100px;
+    margin-left: 25px;
+}
+
+::placeholder {
+    color: rgb(184, 183, 183);
+    font-style: italic;
 }
