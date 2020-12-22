@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario - Everis</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <img class="logo" src="img/logo-everis.jpg" alt="" srcset="">
+        <fieldset class="fundo-do-form">
+            <legend>Informações Pessoais:</legend>
+        <form class="formulario" method="put" action="formulario.html">
+            <label for="nome">Nome:</label> <br>
+            <input type="text" id="nome" required="required">
+            <br><br>
+            <label>Sobrenome:</label> <br>
+            <input type="text" name="lastname" required="required"> <br><br>
+            <label>Data de Nascimento:</label>
+            <input type="date" value="2017-06-01" required="required"> <br><br>
+            <label>Genêro:</label>
+            <input type="radio" name="sex" value="male" checked> <label>Maculino</label>
+            <input type="radio" name="sex" value="female"> <label>Feminino</label>
+            <input type="radio" name="sex" value="not"> <label>Não Informar</label>
+            <br>
+            <br>
+            <label>Estado:</label>
+            <select name="estados-brasil">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+            <br><br>
+            <label>Celular:</label>
+            
+            <input type="tel" id="phone" required="required" name="phone" placeholder="(xx)xxxxx-xxxx">
+            <br>
+
+            <br><br>
+           <input class="enviar" type="submit" value="Enviar">
+        </form> <!-- Fim do formulario -->
+        
+        </fieldset>
+        
+
+
+</body>
+</html>
