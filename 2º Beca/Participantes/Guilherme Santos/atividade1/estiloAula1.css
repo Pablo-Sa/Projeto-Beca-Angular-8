@@ -1,0 +1,36 @@
+body {
+    background-image: url("https://i.ytimg.com/vi/BOtOTU7tMDQ/maxresdefault.jpg");
+    background-size: 100% 310%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+body .div1 {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    max-width: 500px;
+    padding: 10px 20px;
+    background-color: #e8ebf0;
+    margin: 0 auto;
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.div1 input[type="text"],
+.div1 input[type="date"],
+.div1 input[type="submit"],
+.div1 input[type="radio"],
+select {
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 7px;
+    box-sizing: border-box;
+    background-color: #d9dde1;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rbba(0,0,0,0.83) inset;
+}
