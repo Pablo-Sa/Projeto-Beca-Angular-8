@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body{
+    font-family: Roboto;
+    background-color: white;
+    color: #BCCF02;
+    position: relative;
+}
+
+input, select {
+    border-radius: 8px;
+}
+
+img {
+    position: absolute;
+    right: 90px;
+    top: 5px;
+}
+
+.personal-information {
+    border: 2px solid #BCCF02;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.search {
+    text-align: center;
+    margin-top: 100px;
+}
