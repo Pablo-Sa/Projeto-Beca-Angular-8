@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <title>Teste HTML5 - CSS3 + JS</title>
+    </head>
+    <body>
+        <header>
+            <div class="cabecalho">
+                <span>Está página é uma cópia da original</span>
+            </div>
+        </header>
+        <section>
+            <div class="google">
+                <div class="logo-google"></div>
+                <div class="input-busca">
+                    <form action="https://www.google.com.br/"></form>
+                         <div class="input"><input id="busca" type="text"></div>
+                        <button type="submit" name="buscar" value="Pesquisa Google" onclick= "buscaGoogle()">Busca Google</button>
+                        <button type="submit" name="buscar" value="Estou com sorte" onclick= "buscaGoogle()">Estou com sorte</button>
+                    </form>    
+                </div>
+            </div>
+        </section>
+        <script type="text/script" src="./assets/js/script.js"></script>
+        <script>
+            function buscaGoogle() {
+                let elemento = document.getElementById("busca").value;
+                window.location.assign("https://www.google.com/search?q="+elemento);
+                console.log(elemento);}
+        </script>
+    </body>
+</html>
