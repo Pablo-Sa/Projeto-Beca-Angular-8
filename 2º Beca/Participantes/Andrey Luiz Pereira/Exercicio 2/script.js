@@ -3,7 +3,7 @@ var tresValores = ["Argentina", "Bolivia",
 var btnElement = document.getElementById('btn');
 var listElement = document.getElementsByTagName('li');
 
-
+//funcao para gerar os 3 primeiros valores
 function gerarValores() {
     var tresValores = ["Argentina", "Bolivia",
     "Brasil"]
@@ -15,7 +15,7 @@ function gerarValores() {
         var inputValue = `${tresValores[i]}`;
         var text = document.createTextNode(inputValue);
         li.appendChild(text);
-        document.getElementById('list').appendChild(li) ;      
+        document.getElementById('list').appendChild(li);      
     }
 
 }

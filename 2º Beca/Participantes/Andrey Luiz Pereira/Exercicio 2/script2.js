@@ -12,11 +12,9 @@ btnElement.onclick = ()=>{
     document.getElementById('empresa').innerHTML = '';
     document.getElementById('local').innerHTML = '';
 
-
     //variaveis para ação do get
     var usuario = user.value;
     var urlGit = `https://api.github.com/users/${usuario}`;
-
 
     //buscando dados do usuario
     axios.get(urlGit).then(function(response){
@@ -36,33 +34,65 @@ btnElement.onclick = ()=>{
     let inputLogin = response.data.login;
     let login = document.createTextNode(inputLogin);
     loginUser.appendChild(login);
-    document.getElementById('login').appendChild(loginUser);
+    document.getElementById('login').appendChild(loginUser);  
 
     //imprimir nome do usuario
     let nome = document.createElement('div');
     let inputNome = response.data.name;
-    let name = document.createTextNode(inputNome);
-    nome.appendChild(name);
-    document.getElementById('nome').appendChild(nome);
+
+    if(inputNome == null) {
+        inputNome = "nome não informado";
+        let name = document.createTextNode(inputNome);
+        nome.appendChild(name);
+        document.getElementById('nome').appendChild(nome);
+
+    } else {
+        let name = document.createTextNode(inputNome);
+        nome.appendChild(name);
+        document.getElementById('nome').appendChild(nome);
+
+    }
 
     //imprimir empresa do usuario
     let empresa = document.createElement('div');
     let inputEmpresa = response.data.company;
-    let company = document.createTextNode(inputEmpresa);
-    empresa.appendChild(company);
-    document.getElementById('empresa').appendChild(empresa);
+
+    if(inputEmpresa == null) {
+        inputEmpresa = "Empresa não informada";
+        let company = document.createTextNode(inputEmpresa);
+        empresa.appendChild(company);
+        document.getElementById('empresa').appendChild(empresa);
+
+    } else {
+        let company = document.createTextNode(inputEmpresa);
+        empresa.appendChild(company);
+        document.getElementById('empresa').appendChild(empresa);
+
+    }
 
     //imprimir localização do usuario
     let local = document.createElement('div');
-    let inputlocal = response.data.location;
-    let locale = document.createTextNode(inputlocal);
-    local.appendChild(locale);
-    document.getElementById('local').appendChild(local);
+    let inputLocal = response.data.location;
+
+    if(inputLocal == null) {
+        inputLocal = "Localização não informada"
+        let locale = document.createTextNode(inputLocal);
+        local.appendChild(locale);
+        document.getElementById('local').appendChild(local);
+
+    } else {
+        let locale = document.createTextNode(inputLocal);
+        local.appendChild(locale);
+        document.getElementById('local').appendChild(local);
+
+    }
 
     //se der BO diz que não foi localizado     
     }).catch(function(error) {
-
+        //esconder display
+        document.getElementById('fieldset').setAttribute('style', 'display: none');
         alert('Usuário não encontrado!')
+
         });
 
 };

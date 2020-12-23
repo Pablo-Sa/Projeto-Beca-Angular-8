@@ -52,10 +52,10 @@ fieldset > p {
 
 }
 
-fieldset > p >
+fieldset > p > #nome,
 #empresa, 
-#local,
-#nome {
+#local
+{
     font-style: italic;
     font-size: 16px;
 
