@@ -4,7 +4,7 @@ var user = document.getElementById('usuario');
 //função para puxar dados no github e imprimir na tela
 btnElement.onclick = ()=>{
 
-    //limpar campos de saida e entrada
+    //limpar campos de saida
     document.getElementById('usuario').innerHTML = '';
     document.getElementById('avatar').innerHTML = '';
     document.getElementById('login').innerHTML = '';
@@ -91,7 +91,15 @@ btnElement.onclick = ()=>{
     }).catch(function(error) {
         //esconder display
         document.getElementById('fieldset').setAttribute('style', 'display: none');
-        alert('Usuário não encontrado!')
+        swal(
+            {
+                title: 'ATENÇÃO!',
+                text: 'Usuário não encontrado.',
+                icon: 'error',
+                button: 'OK'
+            }).then(function() {
+                window.location.href = "index2.html";
+            });
 
         });
 

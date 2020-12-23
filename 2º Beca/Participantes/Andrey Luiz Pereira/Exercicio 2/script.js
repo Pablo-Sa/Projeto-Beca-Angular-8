@@ -23,8 +23,23 @@ function gerarValores() {
 btnElement.onclick = ()=>{
     var li = document.createElement('li');
     var inputValue = document.getElementById('listar').value;
-    var text = document.createTextNode(inputValue);
-    li.appendChild(text);
-    document.getElementById("list").appendChild(li);
+
+    if(inputValue == null || inputValue == ''){
+        swal(
+            {
+                title: 'ATENÇÃO!',
+                text: 'Por favor, insira um valor válido.',
+                icon: 'info',
+                button: 'OK'
+            }).then(function() {
+                window.location.href = "index.html";
+            });
+
+    } else {
+        var text = document.createTextNode(inputValue);
+        li.appendChild(text);
+        document.getElementById("list").appendChild(li);
+        
+    }
 }
 
