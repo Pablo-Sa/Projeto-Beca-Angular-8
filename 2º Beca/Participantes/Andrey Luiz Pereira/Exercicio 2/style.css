@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:200,400');
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(155, 174, 5);
+    background-color: rgb(243, 239, 239);
+    
+}
+
+header {
+    margin-left: 15px;
+    text-align: center;
+    
+}
+
+img {
+    margin-top: 15px;
+    margin-left: 66px;
+    margin-bottom: 25px;
+    border-radius: 9px;
+
+}
+
+fieldset {
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 9px;
+    border-color: rgb(155, 174, 5);
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: black;
+
+}
+
+fieldset > legend {
+    color: rgb(155, 174, 5);
+    font-size: 0.7cm;
+    font-style: italic;
+    font-weight: 600;
+    
+}
+
+fieldset > p {
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+fieldset > p >
+#empresa, 
+#local,
+#nome {
+    font-style: italic;
+    font-size: 16px;
+
+}
+
+input:hover {
+    border: 2px solid rgb(175, 174, 174);
+
+}
+
+input[type="text"] {
+    border-radius: 2px;
+    border-color: rgb(175, 174, 174) ;
+    margin-left: 20px;
+    outline-color: rgb(255, 255, 255);
+    text-align: center;
+    height: 21px;
+    width: 220px;
+
+}
+
+
+input[type="button"], 
+input[type="submit"]{
+    background-color:rgb(155, 174, 5);
+    outline-color: rgb(175, 174, 174);
+    border-color: rgb(233, 233, 233);
+    color: rgb(236, 236, 236);
+    width: 100px;
+    height: 27px;
+    cursor: pointer;
+
+}
+
+input[type="button"]:hover, 
+input[type="submit"]:hover {  
+    background-color: white;
+    outline-color: rgb(175, 174, 174);
+    border-color: rgb(233, 233, 233) rgb(233, 233, 233);
+    font-size: 0.4cm;
+    color: rgb(155, 174, 5);
+    width: 102px;
+    height: 29px;
+    cursor: pointer;
+    
+}
+
+a > input[type="button"] {
+    margin-top: 25px;
+    margin-left: 125px;
+    
+}
+
+h3 {
+    margin-top: 100px;
+    margin-left: 25px;
+
+}
+
+::placeholder {
+    color: rgb(184, 183, 183);
+    font-style: italic;
+    text-align: center;
+
+}
+
+#avatar {
+    margin-left: -18px;
+    border-radius: 9px;
+    border-color: rgb(155, 174, 5);
+}
+
