@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Everis -BECA Angular</title>
+</head>
+
+<body background-color="#5FB404">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js"
+        integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ=="
+        crossorigin="anonymous"></script>
+    <header>
+        <div class="logo-everis"><img src="img/logo.png" alt="" srcset=""></div>
+    </header> <!-- Fim do header-->
+
+    <section>
+        <div class="form-index">
+
+            <label for="" class="texto-adiciona">Insira seu User GITHUB</label><br>
+            <input id="texto" class="texto-index" type="text" name="" id="">
+
+            <button id="button" onclick="clicar()">Adicionar</button>
+            <a href="perfil.html"><button id="button">Resetar</button></a>
+
+            <div class="listas-adiciona">
+              <img src="" id="avatar" alt="" srcset="" style="width: 300px;"><br>
+              <table class="table table-dark table-striped" style="width: 50%;">
+                <thead>
+                  <tr>
+                    <th scope="col" style="width: 5%;">#</th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Nome:</th>
+                    <td id="name"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">User:</th>
+                    <td id="user"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Biografia:</th>
+                    <td id="biografia"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Seguidores:</th>
+                    <td colspan="2" id="followers"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Seguindo:</th>
+                    <td id="following"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">User desde:</th>
+                    <td id="created"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Localização:</th>
+                    <td id="location"></td>
+                  </tr>
+                </tbody>
+              </table>
+        </div><!--fim listas-adiciona -->
+        
+        </div><!-- fim - form-index -->
+    </section>
+
+
+    <script src="js/user.js"></script>
+</body>
+
+</html>
