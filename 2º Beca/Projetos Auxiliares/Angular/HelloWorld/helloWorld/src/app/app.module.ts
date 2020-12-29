@@ -7,6 +7,7 @@ import { MeuPrimeiroComponent } from 'src/components/meu-primeiro-component/meu-
 import { MeuSegundoComponentComponent } from './components/meu-segundo-component/meu-segundo-component.component';
 import { TwoWayDatabindingComponent } from './components/two-way-databinding/two-way-databinding.component';
 import { FormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
