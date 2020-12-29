@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Github</title>
+</head>
+
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js"
+        integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ=="
+        crossorigin="anonymous">
+        </script>
+
+    <div id="container">
+        <header>
+            <p>
+            <h1>Faça uma consulta a um perfil do Github:</h1>
+            </p>
+        </header>
+
+        <br>
+
+
+        <div>
+            <input type="text" id="usuario" placeholder="Usuário" />
+            <input type="submit" id="btn" onclick="" />
+
+            <fieldset id="fieldset" style="display: none">
+                <legend id='legend'>
+                    <div id="login"></div>
+                </legend>
+                <div id="infos">
+                <p>
+                    <div id="avatar"></div>
+                </p>
+
+                    <h3>Nome:
+                        <div id="nome"></div>
+                    </h3>
+                    <h3>Empresa:
+                        <div id="empresa"></div>
+                    </h3>
+                    <h3>Localização:
+                        <div id="local"></div>
+                    </h3>
+                </div>
+            </fieldset>
+        </div>
+        <div id="botaoVolta">
+            <a href="index.html"><input type="button" value="Quer voltar? Clica aqui!"></a>
+        </div>
+
+
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
