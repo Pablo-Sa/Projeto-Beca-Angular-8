@@ -4,7 +4,7 @@ Nome do Curso: <input [(ngModel)]="novoCurso.nome" type="text"><br><br>
 Duração do Curso <input [(ngModel)]="novoCurso.duracao"  type="text"><br><br>
 <button (click)="adicionarCurso()" >Novo Curso</button>
 <br><br>
-<ul *ngFor="let item of listaDeCurso" >
+<ul *ngFor="let item of listaDeCurso; let i= index" >
     <li>{{item.nome}}</li>
 </ul>
 
