@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <title>Github</title>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js" integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ==" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+    <div id="container">
+        <header>
+            <img src="everis.png" alt="Logo Everis">
+            <p><h2>Insira o Github do usuário abaixo:</h2></p>
+        </header>
+
+        <br>
+
+        <article>
+                <div>
+                    <input type="text" id="usuario" placeholder="Insira o Github do usuário" />
+                    <input type="submit" id="btn" onclick="" />
+
+                    <fieldset id="fieldset" style="display: none">
+                        <legend id='legend'>
+                            <div id="login"></div>
+                        </legend>
+                        <p><div id="avatar"></div></p>
+                        <p>Nome:<div id="nome"></div></p>
+                        <p>Empresa:<div id="empresa"></div></p>
+                        <p>Localização:<div id="local"></div></p>
+                    </fieldset>
+                </div> 
+                <a href="index.html"><input type="button" value="Pagina 1"></a>
+        </article>
+    </div>
+</body>
+<script src="script2.js"></script>
+</html>

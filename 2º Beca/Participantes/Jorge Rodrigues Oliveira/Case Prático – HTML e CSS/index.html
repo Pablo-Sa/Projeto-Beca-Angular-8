@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Case Prático – HTML e CSS</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+     <div class="personal-information">
+        <h3>Informações Pessoais:</h3>
+            <form action="search.html">
+                Nome: <input type="text" required>
+                <br><br>
+                Sobrenome: <input type="text" required>
+                <br><br>
+                Data de Nascimento: <input type="date" required>
+                <br><br>
+                Gênero: <input required type="radio" id="masculino" name="genero" value="masculino">
+                        <label for="masculino">Masculino</label>
+                        <input required type="radio" id="feminino" name="genero" value="feminino">
+                        <label for="feminino">Feminino</label>
+                        <input required type="radio" id="outro" name="genero" value="outro">
+                        <label for="outro">Não informar</label>
+                <br><br>
+                <select required>
+                    <option value="brasil">Brasil</option>
+                    <option value="mexico">México</option>
+                    <option value="suecia">Suécia</option>
+                </select>
+                <br><br>
+                Celular: <input type="text" placeholder="(xx)xxxxx-xxxx" required>
+                <br><br>
+                <img src="https://pbs.twimg.com/profile_images/1277609584006397958/7Fi400cv_400x400.png" alt="">
+            </div> 
+                <br>
+                <button>Submit</button> 
+            </form> 
+    
+    
+  </body>
+</html>

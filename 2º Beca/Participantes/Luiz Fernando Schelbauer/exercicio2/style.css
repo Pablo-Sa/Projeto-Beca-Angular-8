@@ -1,0 +1,16 @@
+body {
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#botaoVolta {
+float: right;
+}
+
+#infos {
+text-align:center;
+display: inline-flexbox;
+color: rgb(238, 237, 237);
+}

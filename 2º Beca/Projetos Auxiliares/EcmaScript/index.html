@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title> 
+  </head>
+  <body>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js"
+      integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ=="
+      crossorigin="anonymous"
+    ></script>
+
+    <input type="email" name="TesteInput" id="ff" />
+
+    <button id="enviar">Enviar</button>
+
+    <div id="teste"></div>
+
+    <script src="myscripts.js"></script>
+
+    <img src="" id="aaf" alt="">
+    <script>
+        var urlGit = 'https://api.github.com/users/pablo-sa';
+        var testeDiv = document.getElementById("teste");
+        var inputTeste = document.getElementById("ff");
+        var testeImg = document.getElementById('aaf');
+        var botaoTeste = document.getElementById('enviar');
+        console.log(botaoTeste);
+
+        botaoTeste.textContent = "novo Valor";
+        botaoTeste.hidden = false;
+
+        console.log(testeImg);
+        
+        
+        
+        
+        axios.get(urlGit).then(function(response){
+            console.log(response);
+            inputTeste.value = response.data.avatar_url;
+            testeImg.attributes['src'].value = response.data.avatar_url;
+
+            var element = document.createElement('label');
+            element.textContent = "Criando Texto";
+            testeDiv.appendChild(element);
+
+      }).catch(function (error){
+        console.log('Deu Ruim');
+      });
+    </script>
+  </body>
+</html>

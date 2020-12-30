@@ -1,0 +1,32 @@
+<p>meu-segundo-component works!</p>
+<br>
+<br>
+<input type="text" name="" id="">
+<br>
+<br>
+<button (click)="adicionarCurso()">Adicionar Curso</button>
+<br>
+<h4>*ngFor</h4>
+<ul *ngFor="let item of listaDeCursos" >
+    <li>{{item}}</li>
+</ul>
+
+Exemplo de Interpolação
+<h1>{{ exemploInterpolacao + getNome() }}</h1>
+<h1>{{ 10+10  }}</h1>
+<h1>{{ true  && true}}</h1>
+
+<h1>Property Binding</h1>
+<br>
+<!-- <img bind-src="imagemAvatarGit" alt=""> -->
+
+<h1>Diretivas Mais Utilizadas</h1>
+<h3>ngIf</h3>
+<img *ngIf="getBoolean() && mostrarImagem" [src]="imagemAvatarGit" alt="">
+
+
+
+<select >
+    <option *ngFor="let item of listaDeCursos" value="">{{item}}</option>
+</select>
+

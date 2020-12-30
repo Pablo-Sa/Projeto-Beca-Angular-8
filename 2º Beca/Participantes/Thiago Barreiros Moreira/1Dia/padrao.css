@@ -1,0 +1,22 @@
+body {
+    margin:0;
+    padding:0;
+    
+    text-align:center; /* hack para o IE */	
+        }
+    #tudo {
+    width: 550px;
+    margin:0 auto;			
+    padding: 130px;
+    text-align:left; /* "remédio" para o hack do IE */	
+        }
+    #conteudo {
+    padding: 5px;
+    
+        }
+
+.padrao{
+    font-size: 25px;
+    color:chartreuse;
+       
+}

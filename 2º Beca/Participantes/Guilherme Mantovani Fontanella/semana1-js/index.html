@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="stylesheet" type="text/css" href="./src/css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercício JavaScript</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <div class="logo">
+                    <a href="https://github.com/">
+                        <img alt="Ícone Github" src="./src/images/iconeGit.png" title="Ir para o GitHub">
+                    </a>
+                </div>
+                <div class="options">
+                    <a href="https://github.com/login" title="Ir para a página de login">Sign In</a>
+                    <a href="https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home" title="Cadastrar-se no GitHub">Sign Up</a>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="blocoPrincipal">
+                <div class="logo-grande">
+                    <img alt="Ícone GitHub" src="./src/images/iconeGit.png">
+                </div>
+                <form>
+                    <div class="input">
+                        <input type="text" id="usuario" placeholder="@usuário" title="Digite o usuário do GitHub">
+                        <button id="botaoBuscar" onclick="mostraModal()" type="button">Buscar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- MODAL -->
+        <section>
+            <div class="modalTotal" id="modal">
+                <div class="modal">
+                    <div class="close-button">
+                        <img alt="fechar"src="./src/images/fechar.svg" title="Fechar" onclick="fechaModal()">
+                   </div>
+                    <div class="foto-usuario"></div>
+                    <div class="options">
+                        <select id="lista">
+                            <option>Nome de Usuário</option>
+                            <option>URL do repositório</option>
+                            <option>Quantidade de seguidores</option>
+                            <option>URL dos seguidores</option>
+                            <option>Seguindo</option>
+                            <option>URL dos perfis que está seguindo</option>
+                        </select>
+                        <input id="adicionar" value="Adicionar" type="button" onclick="buscar()">
+                    </div>
+                    <div class="user-info">
+                        <ul id="user-list"></ul>
+                    </div>
+                </div>   
+            </div>
+        </section>
+        <!-- FIM MODAL -->
+        <script src="./src/js/script.js"></script>
+        <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js"
+        integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ=="
+        crossorigin="anonymous">
+        </script>
+    </body>
+</html>

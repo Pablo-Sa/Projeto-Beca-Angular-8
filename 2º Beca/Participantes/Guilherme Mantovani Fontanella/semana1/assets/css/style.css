@@ -1,0 +1,157 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.body {
+    background-image: url(https://beneficioseveris.com.br/static/everis/LOGINFUNDO.jpg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position-y: -110px;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 20px;
+}
+.logo {
+    background-image: url(https://beneficioseveris.com.br/globals/images/logo-everis.svg);
+    flex: 1;
+    width: 250px;
+    height: 100px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+.contato {
+    flex: 1;
+    text-align: end;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+.contato a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 15px;
+}
+/*formulario*/
+section {
+    margin-top: 30px;
+}
+.formulario {   
+    border: 2px solid rgb(109, 109, 109);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+    background-color: rgba(2, 109, 2, 0.6);
+    width: 100%;
+    max-width: 550px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: aliceblue;
+    font-weight: bold;
+}
+.formulario input {
+    padding: 3px;
+    margin-bottom: 3px;
+}
+.formulario div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    padding: 5px;
+}
+.genero {
+    width: 100% !important;
+    display: inline-block !important;
+    margin-left: 20px !important;
+}
+
+.btn {
+    max-width: 100px !important;
+    margin: auto;
+    
+}
+.btn input {
+    margin-top: 10px;
+    background-color: greenyellow;
+    border: none;
+    padding: 5px 20px;
+    color: aliceblue;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px rgb(107, 107, 107);
+    box-shadow: 0px 0px 4px rgb(107, 107, 107);
+}
+.btn input:hover {
+    background-color: purple;
+    text-shadow: 0px 0px 3px #FFFFFF;
+    box-shadow: 0px 0px 10px rgb(107, 107, 107);
+    cursor: pointer;
+}
+
+/*PÁGINA DE BUSCA */
+.cabecalho {
+    text-align: right;
+    width: 100%;
+    color: lightslategray;
+}
+.google {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+.logo-google {
+    background-image: url(https://www.google.com.br/logos/doodles/2020/december-holidays-days-2-30-6753651837108830.3-law.gif);
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 200px;
+    margin: auto;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.input-busca {
+    text-align: center;
+}
+.input input{
+    width: 80%;
+    max-width: 600px;
+    background-image: url(https://cdn.icon-icons.com/icons2/1515/PNG/512/loupe_105136.png);
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position-y: center;
+    background-position-x: 5px;
+    height: 25px;
+    padding-left: 25px;
+    border-radius: 20px;
+    border: 1px solid lightslategray;
+    margin-bottom: 20px;
+}
+button {
+    border-radius: 15px;
+    padding: 5px 10px;
+    border: 1px solid lightslategray;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+button:hover {
+    background-color: gray;
+    color: aliceblue;
+    
+}
+

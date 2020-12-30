@@ -1,0 +1,3 @@
+Criar Projeto = ng new <nome do Projeto>
+Compilar o Projeto = ng s ou ng serve
+Criar um Componente = ng g c <Nome do Componente>
