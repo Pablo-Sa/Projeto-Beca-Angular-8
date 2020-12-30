@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(24, 22, 22);
+}
+
+.logo-everis {
+    text-align: center;
+}
+
+.texto-index {
+    margin-left: 10px;
+    width: 300px;
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+.form-index {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#button {
+    width: 100px;
+    height: 29px;
+    background-color: #546b07;
+    border: none;
+    color: azure;
+}
+
+#button:hover {
+    background-color: rgb(79, 126, 9);
+}
+
+.listas-adiciona{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.listas-adiciona ul {
+    margin-top: 50px;
+    
+}
+
+.texto-adiciona {
+    color: black;
+}
