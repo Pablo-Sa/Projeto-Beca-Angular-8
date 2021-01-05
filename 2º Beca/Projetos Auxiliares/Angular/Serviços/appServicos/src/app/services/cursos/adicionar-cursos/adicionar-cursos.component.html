@@ -1,0 +1,17 @@
+
+<app-alunos-servicos></app-alunos-servicos>
+
+<h1>Componente Cursos</h1>
+
+<p>Adicionar Cursos</p>
+
+<ul>
+    <li *ngFor="let item of cursos" >{{ item }}</li>
+</ul>
+
+<input type="text" #inputCurso>
+
+
+<br>
+
+<button (click)="addCurso(inputCurso.value)"> Adicionar Curso</button>

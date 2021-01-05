@@ -1,0 +1,12 @@
+<p>Emissor</p>
+
+
+<button (click)="enviarMensagem(mensagem.value)">Enviar Mensagem</button>
+
+<ul>
+    <li *ngFor="let item of mensagensRecebidas" > {{item}}</li>
+</ul>
+
+
+Digite Aqui sua Mensagem
+<input type="text" #mensagem>
