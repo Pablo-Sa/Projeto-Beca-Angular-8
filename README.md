@@ -30,6 +30,50 @@ Data: 21/12/2020 a 15/01/2021 Horário: 9h às 18h
 
 Aulas Ministradas/Programadas
 
+# Conceitos Básicos: 
+
+## HTML
+* 01: Principais Conceitos sobre HTML e sua Sintaxe.
+* 02: Criado Projeto Olá Mundo.
+* 03: Ambiente de desenvolvimento
+* 04: Primeira app (Hello World)
+* 05: Principais Tags: html, head,title, body.
+* 06: Tag meta.
+* 07: Tags de Títulos: h1,h2,h3,h4,h5,h6.
+* 08: Tag de Quebra de Linha: br.
+* 09: Tag de Formulário: form.
+* 10: Tag de Inputs e seus váriados tipos: input.
+* 11: Tag de TextArea: textarea.
+* 12: Tag de select (DropDownLis): select.
+* 13: Tag de Lista de Dados: datalist.
+* 14: Tag de Formatação: strong, em, mark, small, del, ins etc.
+* 15: Tag de Imagem: img.
+* 16: Tag iFrame.
+* 17: Tag de Listas: ul, li.
+* 18: Tag de Tabela e suas estruturas e tags internas: table,tr,td, thead, tbody.
+
+
+## CSS
+* 01: Estutura Básica e seus Principais Conceitos.
+* 02: CSS Inline.
+* 03: Style (Css interno).
+* 04: Css Externo.
+* 05: Class e Id.
+* 06: Principais propriedades de estilos.
+
+## JavaScript
+* 01: Introdução e História da Linguagem.
+* 02: Tipos: number, string, Boolean.
+* 03: Diferença de undefined e null.
+* 04: Object.
+* 05: Funções.
+* 06: Array.
+* 07: Date.
+* 08: Operadores.
+* 09: Statements.
+
+# Framework Angular
+
 ## Módulo 1 (Introdução)
 * 01: Introdução + Arquitetura
 * 02: História do Framework Angular e suas Versões
